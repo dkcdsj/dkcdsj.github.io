@@ -6,7 +6,7 @@
   <link href="http://dkcdsj.github.io/atom.xml" rel="self"/>
   
   <link href="http://dkcdsj.github.io/"/>
-  <updated>2023-03-08T18:24:21.217Z</updated>
+  <updated>2023-03-08T18:31:59.992Z</updated>
   <id>http://dkcdsj.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://dkcdsj.github.io/2023/03/08/%E6%9C%89%E9%99%90%E5%85%83%E6%96%B9%E6%B3%95%E4%BD%9C%E4%B8%9A/"/>
     <id>http://dkcdsj.github.io/2023/03/08/%E6%9C%89%E9%99%90%E5%85%83%E6%96%B9%E6%B3%95%E4%BD%9C%E4%B8%9A/</id>
     <published>2023-03-08T13:50:34.000Z</published>
-    <updated>2023-03-08T18:24:21.217Z</updated>
+    <updated>2023-03-08T18:31:59.992Z</updated>
     
-    <content type="html"><![CDATA[<div class="pdfobject-container" data-target="https://onedrive.live.com/?cid=6B0272ABD70C08CE&id=6B0272ABD70C08CE%21788&parId=6B0272ABD70C08CE%21715&o=OneUp" data-height="500px"></div>]]></content>
+    <content type="html"><![CDATA[<div class="pdfobject-container" data-target="/Users/cdk/Library/CloudStorage/OneDrive-个人/有限元方法作业/finite_element_homework.pdf" data-height="500px"></div>]]></content>
     
     
     <summary type="html">2023 春季学期研一有限元方法课后作业</summary>
@@ -55,31 +55,6 @@
     
     
     <category term="这里是文章标签" scheme="http://dkcdsj.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%E6%96%87%E7%AB%A0%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>text1</title>
-    <link href="http://dkcdsj.github.io/2023/03/08/text1/"/>
-    <id>http://dkcdsj.github.io/2023/03/08/text1/</id>
-    <published>2023-03-08T08:52:57.000Z</published>
-    <updated>2023-03-08T12:44:52.986Z</updated>
-    
-    <content type="html"><![CDATA[<div class="pdfobject-container" data-target="/pdf/finite_element_homework.pdf" data-height="500px"></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;pdfobject-container&quot; data-target=&quot;/pdf/finite_element_homework.pdf&quot; data-height=&quot;500px&quot;&gt;&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    <category term="ceshi" scheme="http://dkcdsj.github.io/categories/ceshi/"/>
-    
-    
-    <category term="测试" scheme="http://dkcdsj.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
