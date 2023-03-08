@@ -36,19 +36,12 @@
     <published>2023-03-08T08:52:57.000Z</published>
     <updated>2023-03-08T09:12:00.988Z</updated>
     
-    <content type="html"><![CDATA[<div class="row">    <embed src="/pdf/finite_element_homework.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    <content type="html"><![CDATA[<div class="pdfobject-container" data-target="/pdf/finite_element_homework.pdf" data-height="500px"></div>]]></content>
     
     
       
       
-    <summary type="html">
-
-	&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;/pdf/finite_element_homework.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot; type=&quot;application/pdf&quot;&gt;
-	&lt;/div&gt;
-
-
-
+    <summary type="html">&lt;div class=&quot;pdfobject-container&quot; data-target=&quot;/pdf/finite_element_homework.pdf&quot; data-height=&quot;500px&quot;&gt;&lt;/div&gt;
 </summary>
       
     
