@@ -6,7 +6,7 @@
   <link href="http://dkcdsj.github.io/atom.xml" rel="self"/>
   
   <link href="http://dkcdsj.github.io/"/>
-  <updated>2023-03-08T08:08:49.082Z</updated>
+  <updated>2023-03-08T08:56:36.628Z</updated>
   <id>http://dkcdsj.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>text1</title>
+    <link href="http://dkcdsj.github.io/2023/03/08/text1/"/>
+    <id>http://dkcdsj.github.io/2023/03/08/text1/</id>
+    <published>2023-03-08T08:52:57.000Z</published>
+    <updated>2023-03-08T08:56:36.628Z</updated>
+    
+    <content type="html"><![CDATA[<div class="row">    <embed src="/finite_element_homework.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;/finite_element_homework.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot; type=&quot;application/pdf&quot;&gt;
+	&lt;/div&gt;
+
+
+
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
