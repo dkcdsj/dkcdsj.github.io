@@ -19,10 +19,11 @@
     <content><![CDATA[<p>这里开始正文！！！</p>
 ]]></content>
       <categories>
-        <category>这里是文章所属分类</category>
+        <category>数值数学</category>
       </categories>
       <tags>
-        <tag>这里是文章标签</tag>
+        <tag>数值</tag>
+        <tag>计算</tag>
       </tags>
   </entry>
   <entry>
