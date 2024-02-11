@@ -249,4 +249,20 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>如何嵌入pdf</title>
+    <url>/2024/02/11/%E5%A6%82%E4%BD%95%E5%B5%8C%E5%85%A5pdf/</url>
+    <content><![CDATA[<p>演示效果:</p>
+<iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/SGFEM.pdf" style='width:100%;height:800px'></iframe>
+
+<p>具体代码:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;/myjs/pdfjs/web/viewer.html?file=/pdf/SGFEM.pdf&quot;</span> <span class="attr">style</span>=<span class="string">&#x27;width:100%;height:800px&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>hexo技术问题</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
 </search>
