@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Accelerated c++ Ex chapter 1</title>
+    <url>/2024/02/11/accelerated-c-Ex-chapter-1/</url>
+    <content><![CDATA[<h2 id="第一章-字符串"><a href="#第一章-字符串" class="headerlink" title="第一章 字符串"></a>第一章 字符串</h2><h4 id="Ex1-0"><a href="#Ex1-0" class="headerlink" title="Ex1.0"></a>Ex1.0</h4><blockquote>
+<p>Compile, execute, and test the programs in this chapter.</p>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//请求姓名</span></span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;输入你的名字&quot;</span>&lt;&lt;std::endl;</span><br><span class="line">    <span class="comment">//创建string变量并输入名字</span></span><br><span class="line">    std::string name;</span><br><span class="line">    std::cin&gt;&gt;name;</span><br><span class="line">    <span class="comment">//打招呼</span></span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;Hello, &quot;</span>&lt;&lt;name&lt;&lt;<span class="string">&quot;!&quot;</span>&lt;&lt;std::endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//输入姓名</span></span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;输入你的名字&quot;</span>;</span><br><span class="line">    std::string name;</span><br><span class="line">    std::cin&gt;&gt;name;</span><br><span class="line">    <span class="type">const</span> std::string greeting = <span class="string">&quot;Hello, &quot;</span>+name+<span class="string">&quot;!&quot;</span>;</span><br><span class="line">    <span class="function"><span class="type">const</span> std::string <span class="title">spaces</span><span class="params">(greeting.size(),<span class="string">&#x27; &#x27;</span>)</span></span>;</span><br><span class="line">    <span class="type">const</span> std::string second = <span class="string">&quot;* &quot;</span>+spaces+<span class="string">&quot; *&quot;</span>;</span><br><span class="line">    <span class="function"><span class="type">const</span> std::string <span class="title">first</span><span class="params">(second.size(),<span class="string">&#x27;*&#x27;</span>)</span></span>;</span><br><span class="line">    <span class="comment">//输出framed name</span></span><br><span class="line">    std::cout&lt;&lt;first&lt;&lt;std::endl;</span><br><span class="line">    std::cout&lt;&lt;second&lt;&lt;std::endl;</span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;* &quot;</span>+greeting+<span class="string">&quot; *&quot;</span>&lt;&lt;std::endl;</span><br><span class="line">    std::cout&lt;&lt;second&lt;&lt;std::endl;</span><br><span class="line">    std::cout&lt;&lt;first&lt;&lt;std::endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Ex1-1"><a href="#Ex1-1" class="headerlink" title="Ex1.1"></a>Ex1.1</h4><blockquote>
+<p>Are the following definitions valid? Why or why not?</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> std::string hello = <span class="string">&quot;Hello&quot;</span>;</span><br><span class="line"><span class="type">const</span> std::string message = hello + <span class="string">&quot;, world&quot;</span> + <span class="string">&quot;!&quot;</span>;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>合法</p>
+</blockquote>
+<h4 id="Ex1-2"><a href="#Ex1-2" class="headerlink" title="Ex1.2"></a>Ex1.2</h4><blockquote>
+<p>Are the following definitions valid? Why or why not?</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> std::string exclam = <span class="string">&quot;!&quot;</span>;</span><br><span class="line"><span class="type">const</span> std::string message = <span class="string">&quot;Hello&quot;</span> + <span class="string">&quot;, world&quot;</span> + exclam;</span><br></pre></td></tr></table></figure>
+
+
+</blockquote>
+<blockquote>
+<p>第一句合法, 第二句不合法, string literal不能用加号连接.</p>
+</blockquote>
+<h4 id="Ex1-3"><a href="#Ex1-3" class="headerlink" title="Ex1.3"></a>Ex1.3</h4><blockquote>
+<p>Is the following program valid? If so, what does it do? If not, why not?  </p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">&#123; <span class="type">const</span> std::string s = <span class="string">&quot;a string&quot;</span>;</span><br><span class="line">std::cout &lt;&lt; s &lt;&lt; std::endl; &#125;</span><br><span class="line">&#123; <span class="type">const</span> std::string s = <span class="string">&quot;another string&quot;</span>;</span><br><span class="line">std::cout &lt;&lt; s &lt;&lt; std::endl; &#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>都是合法的, 在作用域内定义常值string并输出其值string变量s 在作用域外被销毁对应存储空间被销毁, 所以可以在其他作用域内重新定义const string s并初始化, 这和const的要求并不矛盾.</p>
+</blockquote>
+<h4 id="Ex1-4"><a href="#Ex1-4" class="headerlink" title="Ex1.4"></a>Ex1.4</h4><blockquote>
+<p>What about this one? What if we change }} to };} in the third line from the end?  </p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	&#123; <span class="type">const</span> std::string s = <span class="string">&quot;a string&quot;</span>;</span><br><span class="line">	std::cout &lt;&lt; s &lt;&lt; std::endl;</span><br><span class="line">	&#123; <span class="type">const</span> std::string s = <span class="string">&quot;another string&quot;</span>;</span><br><span class="line">	std::cout &lt;&lt; s &lt;&lt; std::endl; &#125;&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+</blockquote>
+<blockquote>
+<p>有效的, 这是因为在大括号内相当于作用域中执行完就销毁不会影响前面的定义, 增加分号并不起作用.</p>
+</blockquote>
+<h4 id="Ex1-5"><a href="#Ex1-5" class="headerlink" title="Ex1.5"></a>Ex1.5</h4><blockquote>
+<p>Is this program valid? If so, what does it do? If not, say why not, and rewrite it to be valid  </p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	&#123; std::string s = <span class="string">&quot;a string&quot;</span>;</span><br><span class="line">	&#123; std::string x = s + <span class="string">&quot;, really&quot;</span>;</span><br><span class="line">	std::cout &lt;&lt; s &lt;&lt; std::endl; &#125;</span><br><span class="line">	std::cout &lt;&lt; x &lt;&lt; std::endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>不合法, 变量x在之前的作用域内定义之后就被销毁, 在作用域外没有定义过x</p>
+</blockquote>
+<h4 id="Ex1-6"><a href="#Ex1-6" class="headerlink" title="Ex1.6"></a>Ex1.6</h4><blockquote>
+<p>What does the following program do if, when it asks you for input, you type two names (for example, Samuel Beckett)? Predict the behavior before running the program, then try it.  </p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&gt;<span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">&gt;<span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line">&gt;<span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function">&gt;</span>&#123;</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;What is your name? &quot;</span>;</span><br><span class="line">std::string name;</span><br><span class="line">std::cin &gt;&gt; name;</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;Hello, &quot;</span> &lt;&lt; name</span><br><span class="line">&lt;&lt; std::endl &lt;&lt; <span class="string">&quot;And what is yours? &quot;</span>;</span><br><span class="line">std::cin &gt;&gt; name;</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;Hello, &quot;</span> &lt;&lt; name</span><br><span class="line">&lt;&lt; <span class="string">&quot;; nice to meet you too!&quot;</span> &lt;&lt; std::endl;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&gt;&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>和两个人分别打招呼</p>
+<p>输出:</p>
+<p>Hello, Samuel</p>
+<p>And what is yours? Hello, Beckett; nice to meet you too!</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>c++</category>
+      </categories>
+      <tags>
+        <tag>c++</tag>
+        <tag>accelerated c++</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Accelerated c++ Ex chapter 0</title>
     <url>/2024/02/11/accelerated-c-Ex-chapter-0/</url>
     <content><![CDATA[<h2 id="第零章-初步"><a href="#第零章-初步" class="headerlink" title="第零章 初步"></a>第零章 初步</h2><h4 id="Ex0-0"><a href="#Ex0-0" class="headerlink" title="Ex0.0"></a>Ex0.0</h4><blockquote>
@@ -79,75 +148,6 @@
 <p>Rewrite the Hello, world! program so that a newline occurs everywhere that whitespace is allowed in the program.</p>
 </blockquote>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span></span><br><span class="line"><span class="keyword">namespace</span></span><br><span class="line">std</span><br><span class="line">;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span></span></span><br><span class="line"><span class="function"><span class="title">main</span></span></span><br><span class="line"><span class="function"><span class="params">(</span></span></span><br><span class="line"><span class="params"><span class="function">)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout</span><br><span class="line">    &lt;&lt;</span><br><span class="line">    <span class="string">&quot;Hello World!&quot;</span></span><br><span class="line">    &lt;&lt;</span><br><span class="line">    endl</span><br><span class="line">    ;</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">    <span class="number">0</span></span><br><span class="line">    ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>c++</category>
-      </categories>
-      <tags>
-        <tag>c++</tag>
-        <tag>accelerated c++</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Accelerated c++ Ex chapter 1</title>
-    <url>/2024/02/11/accelerated-c-Ex-chapter-1/</url>
-    <content><![CDATA[<h2 id="第一章-字符串"><a href="#第一章-字符串" class="headerlink" title="第一章 字符串"></a>第一章 字符串</h2><h4 id="Ex1-0"><a href="#Ex1-0" class="headerlink" title="Ex1.0"></a>Ex1.0</h4><blockquote>
-<p>Compile, execute, and test the programs in this chapter.</p>
-</blockquote>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//请求姓名</span></span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;输入你的名字&quot;</span>&lt;&lt;std::endl;</span><br><span class="line">    <span class="comment">//创建string变量并输入名字</span></span><br><span class="line">    std::string name;</span><br><span class="line">    std::cin&gt;&gt;name;</span><br><span class="line">    <span class="comment">//打招呼</span></span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;Hello, &quot;</span>&lt;&lt;name&lt;&lt;<span class="string">&quot;!&quot;</span>&lt;&lt;std::endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//输入姓名</span></span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;输入你的名字&quot;</span>;</span><br><span class="line">    std::string name;</span><br><span class="line">    std::cin&gt;&gt;name;</span><br><span class="line">    <span class="type">const</span> std::string greeting = <span class="string">&quot;Hello, &quot;</span>+name+<span class="string">&quot;!&quot;</span>;</span><br><span class="line">    <span class="function"><span class="type">const</span> std::string <span class="title">spaces</span><span class="params">(greeting.size(),<span class="string">&#x27; &#x27;</span>)</span></span>;</span><br><span class="line">    <span class="type">const</span> std::string second = <span class="string">&quot;* &quot;</span>+spaces+<span class="string">&quot; *&quot;</span>;</span><br><span class="line">    <span class="function"><span class="type">const</span> std::string <span class="title">first</span><span class="params">(second.size(),<span class="string">&#x27;*&#x27;</span>)</span></span>;</span><br><span class="line">    <span class="comment">//输出framed name</span></span><br><span class="line">    std::cout&lt;&lt;first&lt;&lt;std::endl;</span><br><span class="line">    std::cout&lt;&lt;second&lt;&lt;std::endl;</span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;* &quot;</span>+greeting+<span class="string">&quot; *&quot;</span>&lt;&lt;std::endl;</span><br><span class="line">    std::cout&lt;&lt;second&lt;&lt;std::endl;</span><br><span class="line">    std::cout&lt;&lt;first&lt;&lt;std::endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="Ex1-1"><a href="#Ex1-1" class="headerlink" title="Ex1.1"></a>Ex1.1</h4><blockquote>
-<p>Are the following definitions valid? Why or why not?</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> std::string hello = <span class="string">&quot;Hello&quot;</span>;</span><br><span class="line"><span class="type">const</span> std::string message = hello + <span class="string">&quot;, world&quot;</span> + <span class="string">&quot;!&quot;</span>;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<blockquote>
-<p>合法</p>
-</blockquote>
-<h4 id="Ex1-2"><a href="#Ex1-2" class="headerlink" title="Ex1.2"></a>Ex1.2</h4><blockquote>
-<p>Are the following definitions valid? Why or why not?</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> std::string exclam = <span class="string">&quot;!&quot;</span>;</span><br><span class="line"><span class="type">const</span> std::string message = <span class="string">&quot;Hello&quot;</span> + <span class="string">&quot;, world&quot;</span> + exclam;</span><br></pre></td></tr></table></figure>
-
-
-</blockquote>
-<blockquote>
-<p>第一句合法, 第二句不合法, string literal不能用加号连接.</p>
-</blockquote>
-<h4 id="Ex1-3"><a href="#Ex1-3" class="headerlink" title="Ex1.3"></a>Ex1.3</h4><blockquote>
-<p>Is the following program valid? If so, what does it do? If not, why not?  </p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">&#123; <span class="type">const</span> std::string s = <span class="string">&quot;a string&quot;</span>;</span><br><span class="line">std::cout &lt;&lt; s &lt;&lt; std::endl; &#125;</span><br><span class="line">&#123; <span class="type">const</span> std::string s = <span class="string">&quot;another string&quot;</span>;</span><br><span class="line">std::cout &lt;&lt; s &lt;&lt; std::endl; &#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<blockquote>
-<p>都是合法的, 在作用域内定义常值string并输出其值string变量s 在作用域外被销毁对应存储空间被销毁, 所以可以在其他作用域内重新定义const string s并初始化, 这和const的要求并不矛盾.</p>
-</blockquote>
-<h4 id="Ex1-4"><a href="#Ex1-4" class="headerlink" title="Ex1.4"></a>Ex1.4</h4><blockquote>
-<p>What about this one? What if we change }} to };} in the third line from the end?  </p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	&#123; <span class="type">const</span> std::string s = <span class="string">&quot;a string&quot;</span>;</span><br><span class="line">	std::cout &lt;&lt; s &lt;&lt; std::endl;</span><br><span class="line">	&#123; <span class="type">const</span> std::string s = <span class="string">&quot;another string&quot;</span>;</span><br><span class="line">	std::cout &lt;&lt; s &lt;&lt; std::endl; &#125;&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-</blockquote>
-<blockquote>
-<p>有效的, 这是因为在大括号内相当于作用域中执行完就销毁不会影响前面的定义, 增加分号并不起作用.</p>
-</blockquote>
-<h4 id="Ex1-5"><a href="#Ex1-5" class="headerlink" title="Ex1.5"></a>Ex1.5</h4><blockquote>
-<p>Is this program valid? If so, what does it do? If not, say why not, and rewrite it to be valid  </p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	&#123; std::string s = <span class="string">&quot;a string&quot;</span>;</span><br><span class="line">	&#123; std::string x = s + <span class="string">&quot;, really&quot;</span>;</span><br><span class="line">	std::cout &lt;&lt; s &lt;&lt; std::endl; &#125;</span><br><span class="line">	std::cout &lt;&lt; x &lt;&lt; std::endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<blockquote>
-<p>不合法, 变量x在之前的作用域内定义之后就被销毁, 在作用域外没有定义过x</p>
-</blockquote>
-<h4 id="Ex1-6"><a href="#Ex1-6" class="headerlink" title="Ex1.6"></a>Ex1.6</h4><blockquote>
-<p>What does the following program do if, when it asks you for input, you type two names (for example, Samuel Beckett)? Predict the behavior before running the program, then try it.  </p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&gt;<span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">&gt;<span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line">&gt;<span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function">&gt;</span>&#123;</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;What is your name? &quot;</span>;</span><br><span class="line">std::string name;</span><br><span class="line">std::cin &gt;&gt; name;</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;Hello, &quot;</span> &lt;&lt; name</span><br><span class="line">&lt;&lt; std::endl &lt;&lt; <span class="string">&quot;And what is yours? &quot;</span>;</span><br><span class="line">std::cin &gt;&gt; name;</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;Hello, &quot;</span> &lt;&lt; name</span><br><span class="line">&lt;&lt; <span class="string">&quot;; nice to meet you too!&quot;</span> &lt;&lt; std::endl;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&gt;&#125;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<blockquote>
-<p>和两个人分别打招呼</p>
-<p>输出:</p>
-<p>Hello, Samuel</p>
-<p>And what is yours? Hello, Beckett; nice to meet you too!</p>
-</blockquote>
 ]]></content>
       <categories>
         <category>c++</category>
