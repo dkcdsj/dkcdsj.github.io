@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-14T05:39:08.818Z</updated>
+  <updated>2024-02-14T06:49:32.964Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Accelerated c++ Ex chapter 3</title>
+    <link href="http://example.com/2024/02/14/accelerated-c-Ex-chapter-3/"/>
+    <id>http://example.com/2024/02/14/accelerated-c-Ex-chapter-3/</id>
+    <published>2024-02-14T06:48:35.000Z</published>
+    <updated>2024-02-14T06:49:32.964Z</updated>
+    
+    
+    
+    
+    <category term="c++" scheme="http://example.com/categories/c/"/>
+    
+    
+    <category term="c++" scheme="http://example.com/tags/c/"/>
+    
+    <category term="accelerated c++" scheme="http://example.com/tags/accelerated-c/"/>
+    
+    <category term="习题" scheme="http://example.com/tags/%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Brezis chap1Notes</title>
+    <link href="http://example.com/2024/02/14/Brezis-chap1Notes/"/>
+    <id>http://example.com/2024/02/14/Brezis-chap1Notes/</id>
+    <published>2024-02-14T05:54:10.000Z</published>
+    <updated>2024-02-14T06:24:36.932Z</updated>
+    
+    
+    
+    
+    <category term="泛函分析" scheme="http://example.com/categories/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90/"/>
+    
+    <category term="偏微分方程" scheme="http://example.com/categories/%E5%81%8F%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/"/>
+    
+    
+    <category term="functional analysis" scheme="http://example.com/tags/functional-analysis/"/>
+    
+    <category term="sobolev spzce" scheme="http://example.com/tags/sobolev-spzce/"/>
+    
+    <category term="pde" scheme="http://example.com/tags/pde/"/>
+    
+    <category term="2024notes" scheme="http://example.com/tags/2024notes/"/>
+    
+  </entry>
   
   <entry>
     <title>如何嵌入pdf</title>
