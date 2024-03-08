@@ -49,7 +49,7 @@
     <link href="http://example.com/2024/02/14/Brezis-chap1Notes/"/>
     <id>http://example.com/2024/02/14/Brezis-chap1Notes/</id>
     <published>2024-02-14T05:54:10.000Z</published>
-    <updated>2024-02-14T06:24:36.932Z</updated>
+    <updated>2024-03-08T14:08:51.968Z</updated>
     
     
     
@@ -61,11 +61,11 @@
     
     <category term="functional analysis" scheme="http://example.com/tags/functional-analysis/"/>
     
-    <category term="sobolev spzce" scheme="http://example.com/tags/sobolev-spzce/"/>
-    
     <category term="pde" scheme="http://example.com/tags/pde/"/>
     
     <category term="2024notes" scheme="http://example.com/tags/2024notes/"/>
+    
+    <category term="sobolev space" scheme="http://example.com/tags/sobolev-space/"/>
     
   </entry>
   
