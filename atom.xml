@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-09T20:37:39.793Z</updated>
+  <updated>2024-04-23T20:24:07.754Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有限元编程</title>
+    <link href="http://example.com/2024/04/24/%E6%9C%89%E9%99%90%E5%85%83%E7%BC%96%E7%A8%8B/"/>
+    <id>http://example.com/2024/04/24/%E6%9C%89%E9%99%90%E5%85%83%E7%BC%96%E7%A8%8B/</id>
+    <published>2024-04-23T20:23:07.000Z</published>
+    <updated>2024-04-23T20:24:07.754Z</updated>
+    
+    <content type="html"><![CDATA[<iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/1.pdf" style='width:100%;height:800px'></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe src=&quot;/myjs/pdfjs/web/viewer.html?file=/pdf/1.pdf&quot; style=&#39;width:100%;height:800px&#39;&gt;&lt;/iframe&gt;
+</summary>
+      
+    
+    
+    
+    <category term="有限元编程入门" scheme="http://example.com/categories/%E6%9C%89%E9%99%90%E5%85%83%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/"/>
+    
+    
+    <category term="有限元" scheme="http://example.com/tags/%E6%9C%89%E9%99%90%E5%85%83/"/>
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="matlab" scheme="http://example.com/tags/matlab/"/>
+    
+  </entry>
   
   <entry>
     <title>有限元编程前期准备</title>
