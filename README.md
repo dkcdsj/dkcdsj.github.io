@@ -1,2 +1,0 @@
-# dkcdsj.github.io
-Blog
