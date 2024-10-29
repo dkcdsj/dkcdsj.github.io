@@ -5,5 +5,4 @@
 如果克隆出现问题可能需要修改 ssh客户端为 OpenSSH 而不是 PuTTY/Plink.
 根据终端报错信息, 可能第一次需要进入命令行输入y来同意某些git的选择, 暂时未复现代后续.
   </content></entry><entry><title>Flinks</title><url>/flinks/</url><categories><category><no value=/></categories><tags><tag><no value=/><tag><no value=/></tags><content type="html">  flinks
-  </content></entry><entry><title>About</title><url>/about/</url><categories><category><no value=/></categories><tags><tag><no value=/><tag><no value=/></tags><content type="html">  about
-  </content></entry></search>
+  </content></entry><entry><title>关于我</title><url>/about/</url><categories><category>自我介绍</category></categories><tags><tag>自我介绍</tag></tags><content type="html">  求学经历 2018-2022 本科 基础数学 2022-至今 硕士 计算数学   </content></entry></search>
