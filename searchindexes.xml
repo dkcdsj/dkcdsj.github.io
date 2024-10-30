@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Hello</title><url>/post/hello/</url><categories><category>你好世界</category></categories><tags><tag>Hello</tag><tag><no value=/></tags><content type="html">  你好世界!
-  </content></entry><entry><title>Sourcetree重装避坑</title><url>/post/sourcetree%E9%87%8D%E8%A3%85%E9%81%BF%E5%9D%91/</url><categories><category>软件重装</category></categories><tags><tag>避坑</tag><tag>软件设置</tag></tags><content type="html">  sourcetree重装避坑 重装系统后所有软件重装, 在重装sourcetree时遇到如下麻烦:
+  </content></entry><entry><title>C语言-测试</title><url>/post/c_mod2_test/</url><categories><category>C</category></categories><tags><tag>笔记</tag><tag>C</tag><tag>测试</tag></tags><content type="html">  寻找bug   </content></entry><entry><title>Sourcetree重装避坑</title><url>/post/sourcetree%E9%87%8D%E8%A3%85%E9%81%BF%E5%9D%91/</url><categories><category>软件重装</category></categories><tags><tag>避坑</tag><tag>软件设置</tag></tags><content type="html">  sourcetree重装避坑 重装系统后所有软件重装, 在重装sourcetree时遇到如下麻烦:
 在登陆github账号时需要注意
 这里需要注意首选协议必须要选ssh.再刷新令牌即可. 否则使用sourcetree直接克隆会报错.
 如果克隆出现问题可能需要修改 ssh客户端为 OpenSSH 而不是 PuTTY/Plink.
