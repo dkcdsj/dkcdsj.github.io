@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>个性化 on cdk's blog</title><link>https://dkcdsj.github.io/tags/%E4%B8%AA%E6%80%A7%E5%8C%96/</link><description>Recent content in 个性化 on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 31 Oct 2024 21:26:30 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/tags/%E4%B8%AA%E6%80%A7%E5%8C%96/rss.xml" rel="self" type="application/rss+xml"/><item><title>菜单栏图标设置</title><link>https://dkcdsj.github.io/post/fontawesome/</link><pubDate>Thu, 31 Oct 2024 21:26:30 +0800</pubDate><guid>https://dkcdsj.github.io/post/fontawesome/</guid><description>&lt;ol>
+&lt;li>主要是在设置 config.yaml 遇到对于菜单设置时不知道如何设置其中的pre参数&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">menus&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>  &lt;span style="color:#f92672">main&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>    - &lt;span style="color:#f92672">identifier&lt;/span>: &lt;span style="color:#ae81ff">home&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>      &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">首页&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>      &lt;span style="color:#f92672">pageref&lt;/span>: &lt;span style="color:#ae81ff">/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>      &lt;span style="color:#f92672">pre&lt;/span>: &lt;span style="color:#ae81ff">home&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>      &lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>参数可以直接使用 font awesome中的符号&lt;/p>
+&lt;p>
+&lt;a href="https://www.runoob.com/font-awesome" title="Font Awesome" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Font Awesome
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+&lt;ol start="2">
+&lt;li>其次是参数pageref默认是在content目录下, 如须设置多个子类需要修改&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">mainSections&lt;/span>: [&lt;span style="color:#e6db74">&amp;#34;post&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;mathnotes&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;codes&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 将需要显示的文件夹逐个添加&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
