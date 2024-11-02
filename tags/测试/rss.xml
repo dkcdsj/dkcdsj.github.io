@@ -3,5 +3,7 @@
 &lt;/h1>&lt;h2 id="test-and-debug">test and debug
 &lt;a class="header-anchor" href="#test-and-debug">&lt;/a>
 &lt;/h2>&lt;ol>
+&lt;li>测试与调试: 测试是发现代码中错误的过程, 调试是修复程序中错误的过程&lt;/li>
+&lt;li>需要好的测试用例, 一个好的测试用例是能够让程序失败的&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol></description></item></channel></rss>

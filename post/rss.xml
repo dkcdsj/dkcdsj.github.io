@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on cdk's blog</title><link>https://dkcdsj.github.io/post/</link><description>Recent content in Posts on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 31 Oct 2024 21:26:30 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://dkcdsj.github.io/post/hello/</link><pubDate>Mon, 28 Oct 2024 17:19:48 +0800</pubDate><guid>https://dkcdsj.github.io/post/hello/</guid><description>&lt;p>你好世界!&lt;/p></description></item><item><title>菜单栏图标设置</title><link>https://dkcdsj.github.io/post/fontawesome/</link><pubDate>Thu, 31 Oct 2024 21:26:30 +0800</pubDate><guid>https://dkcdsj.github.io/post/fontawesome/</guid><description>&lt;ol>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on cdk's blog</title><link>https://dkcdsj.github.io/post/</link><description>Recent content in Posts on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 02 Nov 2024 16:52:19 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://dkcdsj.github.io/post/hello/</link><pubDate>Mon, 28 Oct 2024 17:19:48 +0800</pubDate><guid>https://dkcdsj.github.io/post/hello/</guid><description>&lt;p>你好世界!&lt;/p></description></item><item><title>Matlab环境简介1_2</title><link>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</link><pubDate>Sat, 02 Nov 2024 16:52:19 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</guid><description>&lt;h1 id="matlab环境简介1_2">Matlab环境简介1_2
+&lt;a class="header-anchor" href="#matlab%e7%8e%af%e5%a2%83%e7%ae%80%e4%bb%8b1_2">&lt;/a>
+&lt;/h1>&lt;h2 id="编程历史">编程历史
+&lt;a class="header-anchor" href="#%e7%bc%96%e7%a8%8b%e5%8e%86%e5%8f%b2">&lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>1954 Fortran&lt;/li>
+&lt;li>1970s 开始现代语言 C C++ java C# 有利于大型程序&lt;/li>
+&lt;li>Matlab 主要是便于处理数值问题&lt;/li>
+&lt;li>Clever Moler 教授发明了Matlab&lt;/li>
+&lt;li>首先主要介绍矩阵和运算符&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ol>
+&lt;h2 id="变量的命名规则">变量的命名规则
+&lt;a class="header-anchor" href="#%e5%8f%98%e9%87%8f%e7%9a%84%e5%91%bd%e5%90%8d%e8%a7%84%e5%88%99">&lt;/a>
+&lt;/h2>&lt;pre>&lt;code>1. 只能使用字母数字以及下划线
+2. 必须以字母开头
+3. 命名长度有限制, 最多只能包含63个字符
+&lt;/code>&lt;/pre>
+&lt;h2 id="清理工作区与命令行">清理工作区与命令行
+&lt;a class="header-anchor" href="#%e6%b8%85%e7%90%86%e5%b7%a5%e4%bd%9c%e5%8c%ba%e4%b8%8e%e5%91%bd%e4%bb%a4%e8%a1%8c">&lt;/a>
+&lt;/h2>&lt;blockquote>
+&lt;p>clc 清理命令行&lt;/p>
+&lt;p>clear 清理工作区&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="命令行">命令行
+&lt;a class="header-anchor" href="#%e5%91%bd%e4%bb%a4%e8%a1%8c">&lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>语句结尾不打分号;或者只打逗号, matlab会自动echo&lt;/li>
+&lt;li>分号和逗号都可以使多个语句在一行执行&lt;/li>
+&lt;li>多行执行一个命令&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-matlab" data-lang="matlab">&lt;span style="display:flex;">&lt;span>a=b&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#75715e">...&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>c
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Waiting&lt;/strong>&lt;/p></description></item><item><title>菜单栏图标设置</title><link>https://dkcdsj.github.io/post/fontawesome/</link><pubDate>Thu, 31 Oct 2024 21:26:30 +0800</pubDate><guid>https://dkcdsj.github.io/post/fontawesome/</guid><description>&lt;ol>
 &lt;li>主要是在设置 config.yaml 遇到对于菜单设置时不知道如何设置其中的pre参数&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">menus&lt;/span>:
