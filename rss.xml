@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cdk's blog</title><link>https://dkcdsj.github.io/</link><description>Recent content on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 02 Nov 2024 16:52:19 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://dkcdsj.github.io/post/hello/</link><pubDate>Mon, 28 Oct 2024 17:19:48 +0800</pubDate><guid>https://dkcdsj.github.io/post/hello/</guid><description>&lt;p>你好世界!&lt;/p></description></item><item><title>Matlab环境简介1_2</title><link>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</link><pubDate>Sat, 02 Nov 2024 16:52:19 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</guid><description>&lt;h1 id="matlab环境简介1_2">Matlab环境简介1_2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cdk's blog</title><link>https://dkcdsj.github.io/</link><description>Recent content on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 03 Nov 2024 17:03:13 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://dkcdsj.github.io/post/hello/</link><pubDate>Mon, 28 Oct 2024 17:19:48 +0800</pubDate><guid>https://dkcdsj.github.io/post/hello/</guid><description>&lt;p>你好世界!&lt;/p></description></item><item><title>Matlab单元测试1</title><link>https://dkcdsj.github.io/codes/matlab%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951/</link><pubDate>Sun, 03 Nov 2024 17:03:13 +0800</pubDate><guid>https://dkcdsj.github.io/codes/matlab%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951/</guid><description>&lt;h1 id="matlab单元测试1">Matlab单元测试1
+&lt;a class="header-anchor" href="#matlab%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%951">&lt;/a>
+&lt;/h1>&lt;h2 id="基于类的单元测试">基于类的单元测试
+&lt;a class="header-anchor" href="#%e5%9f%ba%e4%ba%8e%e7%b1%bb%e7%9a%84%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%95">&lt;/a>
+&lt;/h2>&lt;blockquote>
+&lt;p>直接参考Matlab文档
+
+&lt;a href="https://ww2.mathworks.cn/help/matlab/matlab_prog/class-based-unit-tests.html" title="Class-Based Unit Tests" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Class-Based Unit Tests
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Matlab矩阵与运算符1_3</title><link>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</link><pubDate>Sun, 03 Nov 2024 01:01:45 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</guid><description>&lt;h1 id="matlab矩阵与运算符1_3">Matlab矩阵与运算符1_3
+&lt;a class="header-anchor" href="#matlab%e7%9f%a9%e9%98%b5%e4%b8%8e%e8%bf%90%e7%ae%97%e7%ac%a61_3">&lt;/a>
+&lt;/h1>&lt;h2 id="heading">
+&lt;a class="header-anchor" href="#heading">&lt;/a>
+&lt;/h2></description></item><item><title>Matlab环境简介1_2</title><link>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</link><pubDate>Sat, 02 Nov 2024 16:52:19 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</guid><description>&lt;h1 id="matlab环境简介1_2">Matlab环境简介1_2
 &lt;a class="header-anchor" href="#matlab%e7%8e%af%e5%a2%83%e7%ae%80%e4%bb%8b1_2">&lt;/a>
 &lt;/h1>&lt;h2 id="编程历史">编程历史
 &lt;a class="header-anchor" href="#%e7%bc%96%e7%a8%8b%e5%8e%86%e5%8f%b2">&lt;/a>
