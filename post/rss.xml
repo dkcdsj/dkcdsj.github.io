@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on cdk's blog</title><link>https://dkcdsj.github.io/post/</link><description>Recent content in Posts on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 03 Nov 2024 01:01:45 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://dkcdsj.github.io/post/hello/</link><pubDate>Mon, 28 Oct 2024 17:19:48 +0800</pubDate><guid>https://dkcdsj.github.io/post/hello/</guid><description>&lt;p>你好世界!&lt;/p></description></item><item><title>Matlab矩阵与运算符1_3</title><link>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</link><pubDate>Sun, 03 Nov 2024 01:01:45 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</guid><description>&lt;h1 id="matlab矩阵与运算符1_3">Matlab矩阵与运算符1_3
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on cdk's blog</title><link>https://dkcdsj.github.io/post/</link><description>Recent content in Posts on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 03 Nov 2024 17:46:27 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://dkcdsj.github.io/post/hello/</link><pubDate>Mon, 28 Oct 2024 17:19:48 +0800</pubDate><guid>https://dkcdsj.github.io/post/hello/</guid><description>&lt;p>你好世界!&lt;/p></description></item><item><title>Matlab函数1_4</title><link>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</link><pubDate>Sun, 03 Nov 2024 17:46:27 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</guid><description>&lt;h1 id="matlab函数1_4">Matlab函数1_4
+&lt;a class="header-anchor" href="#matlab%e5%87%bd%e6%95%b01_4">&lt;/a>
+&lt;/h1>&lt;h2 id="简介">简介
+&lt;a class="header-anchor" href="#%e7%ae%80%e4%bb%8b">&lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>命令行edit可以直接新建文件&lt;/li>
+&lt;li>函数可以用来避免重复编写相同的功能&lt;/li>
+&lt;li>函数文件命名必须要和函数名同名&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>myRand.m&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-matlab" data-lang="matlab">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">myRand&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>a = &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#f92672">+&lt;/span> rand(&lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>) &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#ae81ff">9&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">end&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="输入与输出-io">输入与输出 I/O
+&lt;a class="header-anchor" href="#%e8%be%93%e5%85%a5%e4%b8%8e%e8%be%93%e5%87%ba-io">&lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>函数运行会单独创建工作区, 在运行结束后会自动删除, 变量不会保存在界面中的工作区, 被称为是局部变量.&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>事实上就是作用域的问题&lt;/p>
+&lt;/blockquote>
+&lt;ol start="2">
+&lt;li>通过修改函数来获得输出&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-matlab" data-lang="matlab">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">a&lt;/span> = myRand
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>a = &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#f92672">+&lt;/span> rand(&lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>) &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#ae81ff">9&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">end&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后需要命令行使用&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-matlab" data-lang="matlab">&lt;span style="display:flex;">&lt;span>b = myRand
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>修改传入参数&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-matlab" data-lang="matlab">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> a = &lt;span style="color:#a6e22e">myRand&lt;/span>(low, high)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">% 创建一个3*4的随机矩阵, 取值范围为[low,high]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>a = low &lt;span style="color:#f92672">+&lt;/span> rand(&lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>) &lt;span style="color:#f92672">*&lt;/span> (high &lt;span style="color:#f92672">-&lt;/span> low);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">end&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>返回多个变量&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-matlab" data-lang="matlab">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> [a, s] = &lt;span style="color:#a6e22e">myRand&lt;/span>(low, high)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>a = low &lt;span style="color:#f92672">+&lt;/span> rand(&lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>) &lt;span style="color:#f92672">*&lt;/span> (high &lt;span style="color:#f92672">-&lt;/span> low);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>s = sum(a, &amp;#34;all&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">% v = a(:); %给a中所有元素合并成一个列向量v(按列合并)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">% s = sum(v); %计算列向量v中所有元素的和&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">end&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Matlab矩阵与运算符1_3</title><link>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</link><pubDate>Sun, 03 Nov 2024 01:01:45 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</guid><description>&lt;h1 id="matlab矩阵与运算符1_3">Matlab矩阵与运算符1_3
 &lt;a class="header-anchor" href="#matlab%e7%9f%a9%e9%98%b5%e4%b8%8e%e8%bf%90%e7%ae%97%e7%ac%a61_3">&lt;/a>
 &lt;/h1>&lt;h2 id="heading">
 &lt;a class="header-anchor" href="#heading">&lt;/a>
