@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on cdk's blog</title><link>https://dkcdsj.github.io/post/</link><description>Recent content in Posts on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 03 Nov 2024 17:46:27 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://dkcdsj.github.io/post/hello/</link><pubDate>Mon, 28 Oct 2024 17:19:48 +0800</pubDate><guid>https://dkcdsj.github.io/post/hello/</guid><description>&lt;p>你好世界!&lt;/p></description></item><item><title>Matlab函数1_4</title><link>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</link><pubDate>Sun, 03 Nov 2024 17:46:27 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</guid><description>&lt;h1 id="matlab函数1_4">Matlab函数1_4
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on cdk's blog</title><link>https://dkcdsj.github.io/post/</link><description>Recent content in Posts on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 09 Nov 2024 05:07:03 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://dkcdsj.github.io/post/hello/</link><pubDate>Mon, 28 Oct 2024 17:19:48 +0800</pubDate><guid>https://dkcdsj.github.io/post/hello/</guid><description>&lt;p>你好世界!&lt;/p></description></item><item><title>Matlab工具箱1_5</title><link>https://dkcdsj.github.io/post/matlab%E5%B7%A5%E5%85%B7%E7%AE%B11_5/</link><pubDate>Sat, 09 Nov 2024 05:07:03 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E5%B7%A5%E5%85%B7%E7%AE%B11_5/</guid><description>&lt;p>Matlab工具箱1_5&lt;/p></description></item><item><title>Matlab函数1_4</title><link>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</link><pubDate>Sun, 03 Nov 2024 17:46:27 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</guid><description>&lt;h1 id="matlab函数1_4">Matlab函数1_4
 &lt;a class="header-anchor" href="#matlab%e5%87%bd%e6%95%b01_4">&lt;/a>
 &lt;/h1>&lt;h2 id="简介">简介
 &lt;a class="header-anchor" href="#%e7%ae%80%e4%bb%8b">&lt;/a>
@@ -55,7 +55,32 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">% s = sum(v); %计算列向量v中所有元素的和&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">end&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Matlab矩阵与运算符1_3</title><link>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</link><pubDate>Sun, 03 Nov 2024 01:01:45 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</guid><description>&lt;h1 id="matlab矩阵与运算符1_3">Matlab矩阵与运算符1_3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="函数的定义">函数的定义
+&lt;a class="header-anchor" href="#%e5%87%bd%e6%95%b0%e7%9a%84%e5%ae%9a%e4%b9%89">&lt;/a>
+&lt;/h2>&lt;p>&lt;img src="https://dkcdsj.github.io/imgs/img-lazy-loading.gif" data-src="https://dkcdsj.github.io/post/image-viewer/function1.png" alt="函数定义" />&lt;/p>
+&lt;blockquote>
+&lt;p>exist函数可以查询是否是内置函数, 从而避免自定义函数与内置函数重名&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="子函数">子函数
+&lt;a class="header-anchor" href="#%e5%ad%90%e5%87%bd%e6%95%b0">&lt;/a>
+&lt;/h2>&lt;p>可以在一个m文件中保存多个函数&lt;/p>
+&lt;blockquote>
+&lt;p>只有文件中的第一个函数可以被其他程序调用, 其他函数被称为是子函数或者局部函数只能在文件内部被调用&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="作用域">作用域
+&lt;a class="header-anchor" href="#%e4%bd%9c%e7%94%a8%e5%9f%9f">&lt;/a>
+&lt;/h2>&lt;p>可以设置全局变量从而使变量可以在函数外被操作&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-matlab" data-lang="matlab">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">global&lt;/span> a
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>注意到matlab中全局变量的声明及其赋值必须分开进行.&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>要尽量避免使用全局变量 这会导致引起一些难以诊断的错误&lt;/li>
+&lt;/ol>
+&lt;h2 id="脚本">脚本
+&lt;a class="header-anchor" href="#%e8%84%9a%e6%9c%ac">&lt;/a>
+&lt;/h2>&lt;p>类似于命令行
+edit 文件名 可以之间创建文件&lt;/p></description></item><item><title>Matlab矩阵与运算符1_3</title><link>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</link><pubDate>Sun, 03 Nov 2024 01:01:45 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</guid><description>&lt;h1 id="matlab矩阵与运算符1_3">Matlab矩阵与运算符1_3
 &lt;a class="header-anchor" href="#matlab%e7%9f%a9%e9%98%b5%e4%b8%8e%e8%bf%90%e7%ae%97%e7%ac%a61_3">&lt;/a>
 &lt;/h1>&lt;h2 id="heading">
 &lt;a class="header-anchor" href="#heading">&lt;/a>
