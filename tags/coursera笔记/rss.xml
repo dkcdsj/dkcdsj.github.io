@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coursera笔记 on cdk's blog</title><link>https://dkcdsj.github.io/tags/coursera%E7%AC%94%E8%AE%B0/</link><description>Recent content in Coursera笔记 on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 03 Nov 2024 17:46:27 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/tags/coursera%E7%AC%94%E8%AE%B0/rss.xml" rel="self" type="application/rss+xml"/><item><title>Matlab函数1_4</title><link>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</link><pubDate>Sun, 03 Nov 2024 17:46:27 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</guid><description>&lt;h1 id="matlab函数1_4">Matlab函数1_4
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coursera笔记 on cdk's blog</title><link>https://dkcdsj.github.io/tags/coursera%E7%AC%94%E8%AE%B0/</link><description>Recent content in Coursera笔记 on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 09 Nov 2024 05:07:03 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/tags/coursera%E7%AC%94%E8%AE%B0/rss.xml" rel="self" type="application/rss+xml"/><item><title>Matlab工具箱1_5</title><link>https://dkcdsj.github.io/post/matlab%E5%B7%A5%E5%85%B7%E7%AE%B11_5/</link><pubDate>Sat, 09 Nov 2024 05:07:03 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E5%B7%A5%E5%85%B7%E7%AE%B11_5/</guid><description>&lt;h1 id="matlab工具箱1_5">Matlab工具箱1_5
+&lt;a class="header-anchor" href="#matlab%e5%b7%a5%e5%85%b7%e7%ae%b11_5">&lt;/a>
+&lt;/h1>&lt;h2 id="内置函数">内置函数
+&lt;a class="header-anchor" href="#%e5%86%85%e7%bd%ae%e5%87%bd%e6%95%b0">&lt;/a>
+&lt;/h2>&lt;blockquote>
+&lt;ol>
+&lt;li>sqrt 可以直接对矩阵使用, 效果为对矩阵每个元素开方&lt;/li>
+&lt;li>sum 函数只能对向量直接使用&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;h2 id="创建矩阵">创建矩阵
+&lt;a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e7%9f%a9%e9%98%b5">&lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>zeros 任意零矩阵&lt;/li>
+&lt;li>ones 任意矩阵元素为一的矩阵&lt;/li>
+&lt;li>diag 指定对角元素的对角矩阵, 参数为指定的对角元素&lt;/li>
+&lt;/ol>
+&lt;h3 id="随机数">随机数
+&lt;a class="header-anchor" href="#%e9%9a%8f%e6%9c%ba%e6%95%b0">&lt;/a>
+&lt;/h3>&lt;ol>
+&lt;li>rand 输出0到1 之间的数值均匀分布(事实上伪随机); rand 可以返回给定size的矩阵rand(行,列)&lt;/li>
+&lt;li>fix函数自动四舍五入&lt;/li>
+&lt;li>返回随机整数矩阵&lt;/li>
+&lt;/ol></description></item><item><title>Matlab函数1_4</title><link>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</link><pubDate>Sun, 03 Nov 2024 17:46:27 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E5%87%BD%E6%95%B01_4/</guid><description>&lt;h1 id="matlab函数1_4">Matlab函数1_4
 &lt;a class="header-anchor" href="#matlab%e5%87%bd%e6%95%b01_4">&lt;/a>
 &lt;/h1>&lt;h2 id="简介">简介
 &lt;a class="header-anchor" href="#%e7%ae%80%e4%bb%8b">&lt;/a>
