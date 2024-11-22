@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>测试 on cdk's blog</title><link>https://dkcdsj.github.io/tags/%E6%B5%8B%E8%AF%95/</link><description>Recent content in 测试 on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 30 Oct 2024 21:19:15 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/tags/%E6%B5%8B%E8%AF%95/rss.xml" rel="self" type="application/rss+xml"/><item><title>C语言-测试</title><link>https://dkcdsj.github.io/codes/c_mod2_test/</link><pubDate>Wed, 30 Oct 2024 21:19:15 +0800</pubDate><guid>https://dkcdsj.github.io/codes/c_mod2_test/</guid><description>&lt;h1 id="寻找bug">寻找bug
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>测试 on cdk's blog</title><link>https://dkcdsj.github.io/tags/%E6%B5%8B%E8%AF%95/</link><description>Recent content in 测试 on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 03 Nov 2024 17:03:13 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/tags/%E6%B5%8B%E8%AF%95/rss.xml" rel="self" type="application/rss+xml"/><item><title>Matlab单元测试1</title><link>https://dkcdsj.github.io/codes/matlab%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951/</link><pubDate>Sun, 03 Nov 2024 17:03:13 +0800</pubDate><guid>https://dkcdsj.github.io/codes/matlab%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951/</guid><description>&lt;h1 id="matlab单元测试1">Matlab单元测试1
+&lt;a class="header-anchor" href="#matlab%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%951">&lt;/a>
+&lt;/h1>&lt;h2 id="基于类的单元测试">基于类的单元测试
+&lt;a class="header-anchor" href="#%e5%9f%ba%e4%ba%8e%e7%b1%bb%e7%9a%84%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%95">&lt;/a>
+&lt;/h2>&lt;blockquote>
+&lt;p>直接参考Matlab文档
+
+&lt;a href="https://ww2.mathworks.cn/help/matlab/matlab_prog/class-based-unit-tests.html" title="Class-Based Unit Tests" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Class-Based Unit Tests
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>C语言-测试</title><link>https://dkcdsj.github.io/codes/c_mod2_test/</link><pubDate>Wed, 30 Oct 2024 21:19:15 +0800</pubDate><guid>https://dkcdsj.github.io/codes/c_mod2_test/</guid><description>&lt;h1 id="寻找bug">寻找bug
 &lt;a class="header-anchor" href="#%e5%af%bb%e6%89%bebug">&lt;/a>
 &lt;/h1>&lt;h2 id="test-and-debug">test and debug
 &lt;a class="header-anchor" href="#test-and-debug">&lt;/a>

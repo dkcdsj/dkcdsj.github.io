@@ -21,7 +21,11 @@
 &lt;li>rand 输出0到1 之间的数值均匀分布(事实上伪随机); rand 可以返回给定size的矩阵rand(行,列)&lt;/li>
 &lt;li>fix函数自动四舍五入&lt;/li>
 &lt;li>返回随机整数矩阵&lt;/li>
-&lt;/ol></description></item><item><title>Matlab环境简介1_2</title><link>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</link><pubDate>Sat, 02 Nov 2024 16:52:19 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</guid><description>&lt;h1 id="matlab环境简介1_2">Matlab环境简介1_2
+&lt;/ol></description></item><item><title>Matlab矩阵与运算符1_3</title><link>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</link><pubDate>Sun, 03 Nov 2024 01:01:45 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%9F%A9%E9%98%B5%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A61_3/</guid><description>&lt;h1 id="matlab矩阵与运算符1_3">Matlab矩阵与运算符1_3
+&lt;a class="header-anchor" href="#matlab%e7%9f%a9%e9%98%b5%e4%b8%8e%e8%bf%90%e7%ae%97%e7%ac%a61_3">&lt;/a>
+&lt;/h1>&lt;h2 id="heading">
+&lt;a class="header-anchor" href="#heading">&lt;/a>
+&lt;/h2></description></item><item><title>Matlab环境简介1_2</title><link>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</link><pubDate>Sat, 02 Nov 2024 16:52:19 +0800</pubDate><guid>https://dkcdsj.github.io/post/matlab%E7%8E%AF%E5%A2%83%E7%AE%80%E4%BB%8B1_2/</guid><description>&lt;h1 id="matlab环境简介1_2">Matlab环境简介1_2
 &lt;a class="header-anchor" href="#matlab%e7%8e%af%e5%a2%83%e7%ae%80%e4%bb%8b1_2">&lt;/a>
 &lt;/h1>&lt;h2 id="编程历史">编程历史
 &lt;a class="header-anchor" href="#%e7%bc%96%e7%a8%8b%e5%8e%86%e5%8f%b2">&lt;/a>

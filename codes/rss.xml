@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Codes on cdk's blog</title><link>https://dkcdsj.github.io/codes/</link><description>Recent content in Codes on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 03 Nov 2024 17:03:13 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/codes/rss.xml" rel="self" type="application/rss+xml"/><item><title>Matlab单元测试1</title><link>https://dkcdsj.github.io/codes/matlab%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951/</link><pubDate>Sun, 03 Nov 2024 17:03:13 +0800</pubDate><guid>https://dkcdsj.github.io/codes/matlab%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951/</guid><description>&lt;h1 id="matlab单元测试1">Matlab单元测试1
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Codes on cdk's blog</title><link>https://dkcdsj.github.io/codes/</link><description>Recent content in Codes on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 22 Nov 2024 06:14:00 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/codes/rss.xml" rel="self" type="application/rss+xml"/><item><title>cs106l_2_streams</title><link>https://dkcdsj.github.io/codes/cs106l_2_streams/</link><pubDate>Fri, 22 Nov 2024 06:14:00 +0800</pubDate><guid>https://dkcdsj.github.io/codes/cs106l_2_streams/</guid><description>&lt;h1 id="cs106l_notes_2_streams">cs106l_notes_2_streams
+&lt;a class="header-anchor" href="#cs106l_notes_2_streams">&lt;/a>
+&lt;/h1>&lt;p>[toc]&lt;/p>
+&lt;h2 id="流-stream">流 stream
+&lt;a class="header-anchor" href="#%e6%b5%81-stream">&lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>什么是流, 为什么,存在流?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>最基本的流 string stream(字符串流)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>state bits(状态位) IO streams&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>(manipulators)操作符&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="准备工作">准备工作
+&lt;a class="header-anchor" href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c">&lt;/a>
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&amp;lt;iostream&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&amp;lt;string&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">using&lt;/span> &lt;span style="color:#66d9ef">namespace&lt;/span> std;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 创建字符串
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> string str &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello World!&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 输出字符串或者其中某几项 string 字符串索引从0开始
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> cout&lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span>str[&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span>endl; &lt;span style="color:#75715e">//print e
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> cout&lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span>str&lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span>endl;	&lt;span style="color:#75715e">//print Hello World!
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 修改字符串
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> str[&lt;span style="color:#ae81ff">1&lt;/span>] &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;i&amp;#39;&lt;/span>;	&lt;span style="color:#75715e">//将e修改为i
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// 错误示范
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// str[1] = &amp;#34;i&amp;#34;;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>流的关键在于给各种交互提供一个统一的接口&lt;/p>
+&lt;p>&lt;img src="https://dkcdsj.github.io/imgs/img-lazy-loading.gif" data-src="https://dkcdsj.github.io/codes/assets/image-20241122074146862.png" alt="image-20241122074146862" />&lt;/p></description></item><item><title>Matlab单元测试1</title><link>https://dkcdsj.github.io/codes/matlab%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951/</link><pubDate>Sun, 03 Nov 2024 17:03:13 +0800</pubDate><guid>https://dkcdsj.github.io/codes/matlab%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951/</guid><description>&lt;h1 id="matlab单元测试1">Matlab单元测试1
 &lt;a class="header-anchor" href="#matlab%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%951">&lt;/a>
 &lt;/h1>&lt;h2 id="基于类的单元测试">基于类的单元测试
 &lt;a class="header-anchor" href="#%e5%9f%ba%e4%ba%8e%e7%b1%bb%e7%9a%84%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%95">&lt;/a>
