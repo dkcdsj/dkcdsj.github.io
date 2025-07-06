@@ -3104,57 +3104,6 @@ header.header {
   margin: 0 16px 0 8px;
 }
 
-.footer-inner .vendors-list a {
-  margin-right: 5px;
-}
-
-.footer-inner .vendors-list img {
-  display: inline-block;
-  max-width: 48px;
-  min-width: 14px;
-  max-height: 16px;
-}
-
-@media (max-width: 767px) {
-  .footer-inner .vendors-list img {
-    max-width: 40px;
-  }
-}
-
-.footer-inner .vendors-list img[src$=".svg"] {
-  filter: var(--highlight-img-fill);
-}
-
-.footer-inner .vendors-list a:nth-child(1) img {
-  width: 50px;
-}
-
-@media (max-width: 767px) {
-  .footer-inner .vendors-list a:nth-child(1) img {
-    width: 40px;
-  }
-}
-
-.footer-inner .vendors-list a:nth-child(2) img {
-  width: 43px;
-}
-
-@media (max-width: 767px) {
-  .footer-inner .vendors-list a:nth-child(2) img {
-    width: 33px;
-  }
-}
-
-.footer-inner .vendors-list a:nth-child(3) img {
-  width: 14px;
-}
-
-@media (max-width: 767px) {
-  .footer-inner .vendors-list a:nth-child(3) img {
-    width: 4px;
-  }
-}
-
 .use-motion .footer {
   opacity: 0;
 }
