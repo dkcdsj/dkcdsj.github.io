@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C on cdk's blog</title><link>https://dkcdsj.github.io/categories/c/</link><description>Recent content in C on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 30 Oct 2024 21:19:15 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/categories/c/rss.xml" rel="self" type="application/rss+xml"/><item><title>C语言-测试</title><link>https://dkcdsj.github.io/codes/c_mod2_test/</link><pubDate>Wed, 30 Oct 2024 21:19:15 +0800</pubDate><guid>https://dkcdsj.github.io/codes/c_mod2_test/</guid><description>&lt;h1 id="寻找bug">寻找bug
-&lt;a class="header-anchor" href="#%e5%af%bb%e6%89%bebug">&lt;/a>
-&lt;/h1>&lt;h2 id="test-and-debug">test and debug
-&lt;a class="header-anchor" href="#test-and-debug">&lt;/a>
-&lt;/h2>&lt;ol>
-&lt;li>测试与调试: 测试是发现代码中错误的过程, 调试是修复程序中错误的过程&lt;/li>
-&lt;li>需要好的测试用例, 一个好的测试用例是能够让程序失败的&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ol></description></item></channel></rss>
