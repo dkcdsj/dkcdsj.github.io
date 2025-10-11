@@ -2439,7 +2439,7 @@ header.header {
 }
 
 .book-mark-link::before {
-  color: #222;
+  color: #ef4a53;
   font-size: 32px;
   line-height: 1;
   content: "";
@@ -3129,10 +3129,9 @@ header.header {
 }
 
 .with-love {
-  color: #ff0000;
+  color: #0076bd;
   display: inline-block;
   margin: 0 5px;
-  animation: beat 1.33s ease-in-out infinite;
 }
 
 /*
@@ -3767,25 +3766,6 @@ header.header {
   font-weight: normal;
   margin: initial;
   overflow-wrap: break-word;
-}
-
-.posts-expand .post-title .post-edit-link {
-  border-bottom: 0;
-  color: #bbb;
-  float: right;
-  font-size: 1.25em;
-  margin-left: -1.2em;
-  transition: color 0.2s ease-in;
-}
-
-@media (max-width: 567px) {
-  .posts-expand .post-title .post-edit-link {
-    margin-left: initial;
-  }
-}
-
-.posts-expand .post-title .post-edit-link:hover {
-  color: #fc6423;
 }
 
 .posts-expand .post-title-link {
