@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>欢迎加入 Hugo NexT 组织！</title><url>/post/02-external-link/</url><categories><category>示例文章</category></categories><tags><tag>Hugo</tag><tag>NexT</tag></tags><content type="html">  欢迎来到 Hugo NexT 文档站点！ 它是从 Theme NexT 移植过来的为 Hugo 打造的高品质优雅主题，保持简单易用的特性和强大的功能。
-用户指南 设置 NexT 主题很容易。只需遵循文档，就可快速创建您的个人网站！
-反馈 访问 Awesome NexT 列表，与其他用户分享插件和教程。 加入我们的 Gitter 聊天。 在几秒钟内添加或改进翻译。 在 GitHub Issues 中报告一个 &amp;#x1f41b;。 在 GitHub 上申请一个新特性。 为最受欢迎的功能请求投票。   </content></entry><entry><title>世界，你好！</title><url>/demo/hello-world.html</url><categories><category>开始建站</category></categories><tags><tag>Hugo</tag><tag>开始</tag></tags><content type="html">   “使用 weight 关键字置顶文章。”
-Hugo 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。
-快速开始 发表新文章 1 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 1 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 1 $ hugo 更多信息： Hugo 建站 部署到服务器 1 $ hugo deploy 更多信息： Hugo 发布 祝你好运，相信你会喜欢上 Hugo 建站的旅程！
-  </content></entry><entry><title>支持在Markdown文档中实现块信息强调标注</title><url>/demo/hugo-blockquote.html</url><categories><category>示例文章</category><category>语法</category></categories><tags><tag>blockquote</tag><tag>Hugo</tag></tags><content type="html"><![CDATA[  过去 HugoNexT 主题都是通过自定义短语来实现块信息的标注，近期发现 Hugo 从 v0.134.0 版本开始便是可以支持通过hook方式渲染Markdown文档中的Blockquote样式（需要自己实现），实现类似Github的警告风格样式。于是便在 HugoNexT 主题中添加7种不同风格供用户可选择使用，还可以自定义图标与颜色配置。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Home</title><url>/post/page/</url><categories><category>主页</category></categories><tags><tag>主页</tag><tag><no value=/></tags><content type="html">  huanyt
+  </content></entry><entry><title>Ceshi</title><url>/cpp/ceshi/</url><categories><category>C++</category></categories><tags><tag>C++</tag></tags><content type="html">  ceshi
+  </content></entry><entry><title>Ceshi</title><url>/cpp/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
+  </content></entry><entry><title>Ceshi3</title><url>/python/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
+  </content></entry><entry><title/><url>/archives/_index.en-us/</url><categories/><tags/><content type="html">    </content></entry><entry><title>支持在Markdown文档中实现块信息强调标注</title><url>/demo/hugo-blockquote.html</url><categories><category>示例文章</category><category>语法</category></categories><tags><tag>blockquote</tag><tag>Hugo</tag></tags><content type="html"><![CDATA[  过去 HugoNexT 主题都是通过自定义短语来实现块信息的标注，近期发现 Hugo 从 v0.134.0 版本开始便是可以支持通过hook方式渲染Markdown文档中的Blockquote样式（需要自己实现），实现类似Github的警告风格样式。于是便在 HugoNexT 主题中添加7种不同风格供用户可选择使用，还可以自定义图标与颜色配置。
 用户可以找到如下两处配置项的位置，然后根据自己喜欢的风格和颜色进行调整：
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 # config.yaml 或 hugo.toml postAlerts: info: icon: &#34;circle-info&#34; color: &#34;#4A90E2&#34; note: icon: &#34;bell&#34; color: &#34;#17A2B8&#34; help: icon: &#34;circle-question&#34; color: &#34;#967ADC&#34; error: icon: &#34;circle-xmark&#34; color: &#34;#DC3545&#34; warning: icon: &#34;triangle-exclamation&#34; color: &#34;#F39C12&#34; success: icon: &#34;circle-check&#34; color: &#34;#32CD32&#34; important: icon: &#34;circle-plus&#34; color: &#34;#007BFF&#34; 1 2 3 4 5 6 7 8 9 # i18n/zh-cn.yaml PostAlert: info : &#34;信息&#34; note : &#34;注意&#34; help : &#34;帮助&#34; error : &#34;错误&#34; warning : &#34;警告&#34; success : &#34;成功&#34; important: &#34;重要&#34; 在Maarkdown文档中的写法和实现的具体效果参考如下：
 信息提示 1 2 &gt; [!INFO] &gt; `HugoNexT` 主题支持自定义样式设计，你可实现属于自己站点的个性化设计。 信息 HugoNexT 主题支持自定义样式设计，你可实现属于自己站点的个性化设计。
@@ -99,5 +98,10 @@ Xn + Yn = Zn
 按X获胜。或按CTRL+ALT+F显示 FPS 计数器。
 比特作为信息论中的信息单位，也被称为 shannon ，以信息论领域的创始人 Claude shannon 的名字命名。
 参考：
-来自 Mainroad 主题的 Basic Elements 内容   ]]></content></entry><entry><title>站点示例</title><url>/flinks.html</url><categories/><tags/><content type="html">  如想交换本站友情链接，请在评论区留下你的站点信息，格式参考如下：
+来自 Mainroad 主题的 Basic Elements 内容   ]]></content></entry><entry><title>世界，你好！</title><url>/demo/hello-world.html</url><categories><category>开始建站</category></categories><tags><tag>Hugo</tag><tag>开始</tag></tags><content type="html">   “使用 weight 关键字置顶文章。”
+Hugo 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。
+快速开始 发表新文章 1 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 1 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 1 $ hugo 更多信息： Hugo 建站 部署到服务器 1 $ hugo deploy 更多信息： Hugo 发布 祝你好运，相信你会喜欢上 Hugo 建站的旅程！
+  </content></entry><entry><title>欢迎加入 Hugo NexT 组织！</title><url>/post/02-external-link/</url><categories><category>示例文章</category></categories><tags><tag>Hugo</tag><tag>NexT</tag></tags><content type="html">  欢迎来到 Hugo NexT 文档站点！ 它是从 Theme NexT 移植过来的为 Hugo 打造的高品质优雅主题，保持简单易用的特性和强大的功能。
+用户指南 设置 NexT 主题很容易。只需遵循文档，就可快速创建您的个人网站！
+反馈 访问 Awesome NexT 列表，与其他用户分享插件和教程。 加入我们的 Gitter 聊天。 在几秒钟内添加或改进翻译。 在 GitHub Issues 中报告一个 &amp;#x1f41b;。 在 GitHub 上申请一个新特性。 为最受欢迎的功能请求投票。   </content></entry><entry><title>站点示例</title><url>/flinks.html</url><categories/><tags/><content type="html">  如想交换本站友情链接，请在评论区留下你的站点信息，格式参考如下：
 1 2 3 4 - name: Hugo-NexT desc: Hugo NexT 官方预览网站。 avatar: https://hugo-next.eu.org/imgs/hugo_next_avatar.png link: https://hugo-next.eu.org   </content></entry></search>
