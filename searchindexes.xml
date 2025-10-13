@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Home</title><url>/post/page/</url><categories><category>主页</category></categories><tags><tag>主页</tag><tag><no value=/></tags><content type="html">  huanyt
+  </content></entry><entry><title>Matlab风格指南阅读记录</title><url>/matlab/matlab%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95/</url><categories><category>matlab</category></categories><tags><tag>matlab</tag><tag>风格指南</tag></tags><content type="html">  matlab风格指南阅读记录 命名规则 1. 变量 变量名应记录它们的含义或用途.
+变量名以小写字母开头、大小写混合形式命名.
+其他编程语言的通用做法。以大写字母开头的命名在其他语言中通常保留为类或结构体。
   </content></entry><entry><title>Ceshi</title><url>/cpp/ceshi/</url><categories><category>C++</category></categories><tags><tag>C++</tag></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi</title><url>/cpp/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi3</title><url>/computation/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi3</title><url>/latex/ceshi4/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
-  </content></entry><entry><title>Ceshi3</title><url>/matlab/ceshi3/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi3</title><url>/pde/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi3</title><url>/python/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title/><url>/archives/_index.en-us/</url><categories/><tags/><content type="html">    </content></entry><entry><title>关于 Hugo NexT 组织</title><url>/about.html</url><categories/><tags/><content type="html">  Hugo NexT 组织是由众多喜爱 NexT 主题及风格的世界各地友人共同组建而成，为的就是让这个主题继续在 Hugo 引擎中也能得到发扬光大，在此也欢迎你的加入！
