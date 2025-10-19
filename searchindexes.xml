@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Home</title><url>/post/page/</url><categories><category>主页</category></categories><tags><tag>主页</tag><tag><no value=/></tags><content type="html">  huanyt
-  </content></entry><entry><title>Matlab风格指南阅读记录</title><url>/matlab/matlab%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95/</url><categories><category>matlab</category></categories><tags><tag>matlab</tag><tag>风格指南</tag></tags><content type="html">  matlab风格指南阅读记录 命名规则 1. 变量 变量名应记录它们的含义或用途.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>个人主页</title><url>/post/page/</url><categories><category>主页</category></categories><tags><tag>主页</tag></tags><content type="html">  省略自我介绍
+博客核心内容目录 Linux基础 Linux基本命令   </content></entry><entry><title>关于我</title><url>/about.html</url><categories/><tags/><content type="html">  about
+  </content></entry><entry><title>Linux基本命令</title><url>/cpp/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</url><categories><category>Linux</category></categories><tags><tag>Linux基础命令</tag></tags><content type="html">  Linux基本命令   </content></entry><entry><title>Matlab风格指南阅读记录</title><url>/matlab/matlab%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95/</url><categories><category>matlab</category></categories><tags><tag>matlab</tag><tag>风格指南</tag></tags><content type="html">  matlab风格指南阅读记录 命名规则 1. 变量 变量名应记录它们的含义或用途.
 变量名以小写字母开头、大小写混合形式命名.
 其他编程语言的通用做法。以大写字母开头的命名在其他语言中通常保留为类或结构体。
-  </content></entry><entry><title>Ceshi</title><url>/cpp/ceshi/</url><categories><category>C++</category></categories><tags><tag>C++</tag></tags><content type="html">  ceshi
-  </content></entry><entry><title>Ceshi</title><url>/cpp/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi3</title><url>/computation/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi3</title><url>/latex/ceshi4/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi3</title><url>/pde/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
   </content></entry><entry><title>Ceshi3</title><url>/python/ceshi2/</url><categories><category>C++</category></categories><tags><tag>C++</tag><tag><no value=/></tags><content type="html">  ceshi
-  </content></entry><entry><title/><url>/archives/_index.en-us/</url><categories/><tags/><content type="html">    </content></entry><entry><title>关于 Hugo NexT 组织</title><url>/about.html</url><categories/><tags/><content type="html">  Hugo NexT 组织是由众多喜爱 NexT 主题及风格的世界各地友人共同组建而成，为的就是让这个主题继续在 Hugo 引擎中也能得到发扬光大，在此也欢迎你的加入！
-我们的愿景 延续 NexT 经典的黑白调搭配，保持简单的易用性及强大的功能。
-使用反馈 加入 GitHub Discussions 或 Gitter 在线讨论 &amp;#x1f37b; GitHub Issues 提交错误报告 &amp;#x1f41b; GitHub Feature 表新功能的想法 &amp;#x2728; 信息 同时国内用户也可加入 QQ 群交流： 604710815
-  </content></entry><entry><title>站点示例</title><url>/flinks.html</url><categories/><tags/><content type="html">  如想交换本站友情链接，请在评论区留下你的站点信息，格式参考如下：
+  </content></entry><entry><title/><url>/archives/_index.en-us/</url><categories/><tags/><content type="html">    </content></entry><entry><title>站点示例</title><url>/flinks.html</url><categories/><tags/><content type="html">  如想交换本站友情链接，请在评论区留下你的站点信息，格式参考如下：
 1 2 3 4 - name: Hugo-NexT desc: Hugo NexT 官方预览网站。 avatar: https://hugo-next.eu.org/imgs/hugo_next_avatar.png link: https://hugo-next.eu.org   </content></entry></search>
