@@ -86,36 +86,36 @@
  @-webkit-keyframes spin {
  to { -webkit-transform: rotate(360deg); }
  }
- &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-80520c66"&gt;
- &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-80520c66"&gt;
- &lt;div class="pdf-loading" id="pdf-loading-80520c66"&gt;&lt;/div&gt;
+ &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-49f81c8a"&gt;
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-49f81c8a"&gt;
+ &lt;div class="pdf-loading" id="pdf-loading-49f81c8a"&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div id="overlayText"&gt;
- &lt;a href="./%e7%ac%ac%e4%ba%8c%e7%ab%a0.pdf" aria-label="Download" download&gt;
+ &lt;a href="./Evans%e7%ac%ac%e4%b8%80%e7%ab%a0.pdf" aria-label="Download" download&gt;
  &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"&gt;
  &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" /&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
  &lt;/div&gt;
- &lt;canvas class="pdf-canvas" id="pdf-canvas-80520c66"&gt;&lt;/canvas&gt;
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-49f81c8a"&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-&lt;div class="pdf-paginator" id="pdf-paginator-80520c66"&gt;
- &lt;button id="pdf-prev-80520c66"&gt;Previous&lt;/button&gt;
- &lt;button id="pdf-next-80520c66"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-49f81c8a"&gt;
+ &lt;button id="pdf-prev-49f81c8a"&gt;Previous&lt;/button&gt;
+ &lt;button id="pdf-next-49f81c8a"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
  &lt;span&gt;
- &lt;span class="pdf-pagenum" id="pdf-pagenum-80520c66"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-80520c66"&gt;&lt;/span&gt;
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-49f81c8a"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-49f81c8a"&gt;&lt;/span&gt;
  &lt;/span&gt;
- &lt;a class="pdf-source" id="pdf-source-80520c66" href="./%e7%ac%ac%e4%ba%8c%e7%ab%a0.pdf"&gt;[pdf]&lt;/a&gt;
+ &lt;a class="pdf-source" id="pdf-source-49f81c8a" href="./Evans%e7%ac%ac%e4%b8%80%e7%ab%a0.pdf"&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-80520c66" href="./%e7%ac%ac%e4%ba%8c%e7%ab%a0.pdf"&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-49f81c8a" href="./Evans%e7%ac%ac%e4%b8%80%e7%ab%a0.pdf"&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type="text/javascript"&gt;
  (function(){
- var url = '.\/第二章.pdf';
+ var url = '.\/Evans第一章.pdf';
 
  var hidePaginator = "true" === "true";
  var hideLoader = "" === "true";
@@ -123,7 +123,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-80520c66" hre
  
 
  var showSource = "" === "true";
- var pageSource = document.getElementById("pdf-source-80520c66");
+ var pageSource = document.getElementById("pdf-source-49f81c8a");
 
  
  function showSourcef() {
@@ -151,10 +151,10 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-80520c66" hre
  pageRendering = false,
  pageNumPending = null,
  scale = 3,
- canvas = document.getElementById('pdf-canvas-80520c66'),
+ canvas = document.getElementById('pdf-canvas-49f81c8a'),
  ctx = canvas.getContext('2d'),
- paginator = document.getElementById("pdf-paginator-80520c66"),
- loadingWrapper = document.getElementById('pdf-loadingWrapper-80520c66');
+ paginator = document.getElementById("pdf-paginator-49f81c8a"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-49f81c8a');
 
 
  
@@ -192,7 +192,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-80520c66" hre
  });
  
  
- document.getElementById('pdf-pagenum-80520c66').textContent = num;
+ document.getElementById('pdf-pagenum-49f81c8a').textContent = num;
  }
  
  
@@ -236,7 +236,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-80520c66" hre
  pageNum--;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-prev-80520c66').addEventListener('click', onPrevPage);
+ document.getElementById('pdf-prev-49f81c8a').addEventListener('click', onPrevPage);
  
  
 
@@ -247,14 +247,14 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-80520c66" hre
  pageNum++;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-next-80520c66').addEventListener('click', onNextPage);
+ document.getElementById('pdf-next-49f81c8a').addEventListener('click', onNextPage);
  
  
 
  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  pdfDoc = pdfDoc_;
  var numPages = pdfDoc.numPages;
- document.getElementById('pdf-pagecount-80520c66').textContent = numPages;
+ document.getElementById('pdf-pagecount-49f81c8a').textContent = numPages;
  
  
  if(pageNum &gt; numPages) {
