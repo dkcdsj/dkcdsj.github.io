@@ -14,3 +14,13 @@
   color: #ed6c24;
   font-weight: bold;
 }
+
+/* 关闭分类/标签/菜单等位置的首字母大写 */
+.post-meta__categories a,
+.category-list a,
+.category-list-link,
+.tag-cloud a,
+.menu-item a,
+.site-state-item-name {
+  text-transform: none !important;
+}
