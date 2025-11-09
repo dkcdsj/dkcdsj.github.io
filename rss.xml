@@ -1,14 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cdk's blog</title><link>https://dkcdsj.github.io/</link><description>Recent content on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 08 Nov 2025 10:39:31 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>个人主页</title><link>https://dkcdsj.github.io/post/page/</link><pubDate>Mon, 13 Oct 2025 00:30:33 +0800</pubDate><guid>https://dkcdsj.github.io/post/page/</guid><description>&lt;p&gt;省略自我介绍&lt;/p&gt;
-&lt;h1 id="博客核心内容目录"&gt;博客核心内容目录
-&lt;a class="header-anchor" href="#%e5%8d%9a%e5%ae%a2%e6%a0%b8%e5%bf%83%e5%86%85%e5%ae%b9%e7%9b%ae%e5%bd%95"&gt;&lt;/a&gt;
-&lt;/h1&gt;&lt;h2 id="linux基础"&gt;Linux基础
-&lt;a class="header-anchor" href="#linux%e5%9f%ba%e7%a1%80"&gt;&lt;/a&gt;
-&lt;/h2&gt;&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cdk's blog</title><link>https://dkcdsj.github.io/</link><description>Recent content on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 08 Nov 2025 10:39:31 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>常用学习资源汇总</title><link>https://dkcdsj.github.io/post/page/</link><pubDate>Mon, 13 Oct 2025 00:30:33 +0800</pubDate><guid>https://dkcdsj.github.io/post/page/</guid><description>&lt;h1 id="pdf资源下载"&gt;PDF资源下载
+&lt;a class="header-anchor" href="#pdf%e8%b5%84%e6%ba%90%e4%b8%8b%e8%bd%bd"&gt;&lt;/a&gt;
+&lt;/h1&gt;&lt;ol&gt;
 &lt;li&gt;
-&lt;a href="https://dkcdsj.github.io/cpp/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/" title="Linux基本命令" &gt;
- Linux基本命令
+&lt;p&gt;
+&lt;a href="https://zlib.wwwnav.com/" title="zlib中转" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
+ zlib中转
  
-&lt;/a&gt;&lt;/li&gt;
+ &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
+ 
+&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href="https://libgen.li/" title="Library Genesis" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
+ Library Genesis
+ 
+ &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
+ 
+&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="c学习资料"&gt;C++学习资料
+&lt;a class="header-anchor" href="#c%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%96%99"&gt;&lt;/a&gt;
+&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href="https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1224/" title="106B22冬作业" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
+ 106B22冬作业
+ 
+ &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
+ 
+&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href="https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1242/lectures/" title="106B23秋笔记" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
+ 106B23秋笔记
+ 
+ &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
+ 
+&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href="https://www.zhihu.com/column/c_1471256108476461057" title="22冬作业辅导" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
+ 22冬作业辅导
+ 
+ &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
+ 
+&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href="https://github.com/Andy-xiaokang/CS106B/tree/master" title="106B作业启动库" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
+ 106B作业启动库
+ 
+ &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
+ 
+&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>106Blec5Stacks and Queues</title><link>https://dkcdsj.github.io/cpp/106blec5stacks-and-queues/</link><pubDate>Sat, 08 Nov 2025 10:39:31 +0800</pubDate><guid>https://dkcdsj.github.io/cpp/106blec5stacks-and-queues/</guid><description>&lt;h1 id="栈和队列"&gt;栈和队列
 &lt;a class="header-anchor" href="#%e6%a0%88%e5%92%8c%e9%98%9f%e5%88%97"&gt;&lt;/a&gt;
 &lt;/h1&gt;&lt;h2 id="stack-overview-堆栈概述"&gt;Stack Overview 堆栈概述
