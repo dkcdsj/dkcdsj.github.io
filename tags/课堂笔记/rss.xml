@@ -86,36 +86,36 @@
  @-webkit-keyframes spin {
  to { -webkit-transform: rotate(360deg); }
  }
- &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-37d171bc"&gt;
- &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-37d171bc"&gt;
- &lt;div class="pdf-loading" id="pdf-loading-37d171bc"&gt;&lt;/div&gt;
+ &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-7097921e"&gt;
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-7097921e"&gt;
+ &lt;div class="pdf-loading" id="pdf-loading-7097921e"&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div id="overlayText"&gt;
- &lt;a href="./nmpde6.pdf" aria-label="Download" download&gt;
+ &lt;a href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e5%85%ad%e7%ab%a0%e8%bf%9e%e7%bb%ad%e5%86%85%e7%bd%9a%e6%9c%89%e9%99%90%e5%85%83/nmpde6.pdf" aria-label="Download" download&gt;
  &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"&gt;
  &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" /&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
  &lt;/div&gt;
- &lt;canvas class="pdf-canvas" id="pdf-canvas-37d171bc"&gt;&lt;/canvas&gt;
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-7097921e"&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-&lt;div class="pdf-paginator" id="pdf-paginator-37d171bc"&gt;
- &lt;button id="pdf-prev-37d171bc"&gt;Previous&lt;/button&gt;
- &lt;button id="pdf-next-37d171bc"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-7097921e"&gt;
+ &lt;button id="pdf-prev-7097921e"&gt;Previous&lt;/button&gt;
+ &lt;button id="pdf-next-7097921e"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
  &lt;span&gt;
- &lt;span class="pdf-pagenum" id="pdf-pagenum-37d171bc"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-37d171bc"&gt;&lt;/span&gt;
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-7097921e"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-7097921e"&gt;&lt;/span&gt;
  &lt;/span&gt;
- &lt;a class="pdf-source" id="pdf-source-37d171bc" href="./nmpde6.pdf"&gt;[pdf]&lt;/a&gt;
+ &lt;a class="pdf-source" id="pdf-source-7097921e" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e5%85%ad%e7%ab%a0%e8%bf%9e%e7%bb%ad%e5%86%85%e7%bd%9a%e6%9c%89%e9%99%90%e5%85%83/nmpde6.pdf"&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-37d171bc" href="./nmpde6.pdf"&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-7097921e" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e5%85%ad%e7%ab%a0%e8%bf%9e%e7%bb%ad%e5%86%85%e7%bd%9a%e6%9c%89%e9%99%90%e5%85%83/nmpde6.pdf"&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type="text/javascript"&gt;
  (function(){
- var url = '.\/nmpde6.pdf';
+ var url = '..\/..\/fem\/pde数值解第六章连续内罚有限元\/nmpde6.pdf';
 
  var hidePaginator = "true" === "true";
  var hideLoader = "" === "true";
@@ -123,7 +123,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-37d171bc" hre
  
 
  var showSource = "" === "true";
- var pageSource = document.getElementById("pdf-source-37d171bc");
+ var pageSource = document.getElementById("pdf-source-7097921e");
 
  
  function showSourcef() {
@@ -151,10 +151,10 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-37d171bc" hre
  pageRendering = false,
  pageNumPending = null,
  scale = 3,
- canvas = document.getElementById('pdf-canvas-37d171bc'),
+ canvas = document.getElementById('pdf-canvas-7097921e'),
  ctx = canvas.getContext('2d'),
- paginator = document.getElementById("pdf-paginator-37d171bc"),
- loadingWrapper = document.getElementById('pdf-loadingWrapper-37d171bc');
+ paginator = document.getElementById("pdf-paginator-7097921e"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-7097921e');
 
 
  
@@ -192,7 +192,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-37d171bc" hre
  });
  
  
- document.getElementById('pdf-pagenum-37d171bc').textContent = num;
+ document.getElementById('pdf-pagenum-7097921e').textContent = num;
  }
  
  
@@ -236,7 +236,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-37d171bc" hre
  pageNum--;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-prev-37d171bc').addEventListener('click', onPrevPage);
+ document.getElementById('pdf-prev-7097921e').addEventListener('click', onPrevPage);
  
  
 
@@ -247,14 +247,14 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-37d171bc" hre
  pageNum++;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-next-37d171bc').addEventListener('click', onNextPage);
+ document.getElementById('pdf-next-7097921e').addEventListener('click', onNextPage);
  
  
 
  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  pdfDoc = pdfDoc_;
  var numPages = pdfDoc.numPages;
- document.getElementById('pdf-pagecount-37d171bc').textContent = numPages;
+ document.getElementById('pdf-pagecount-7097921e').textContent = numPages;
  
  
  if(pageNum &gt; numPages) {
@@ -353,36 +353,36 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-37d171bc" hre
  @-webkit-keyframes spin {
  to { -webkit-transform: rotate(360deg); }
  }
- &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-952dcffc"&gt;
- &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-952dcffc"&gt;
- &lt;div class="pdf-loading" id="pdf-loading-952dcffc"&gt;&lt;/div&gt;
+ &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-2228b7b8"&gt;
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-2228b7b8"&gt;
+ &lt;div class="pdf-loading" id="pdf-loading-2228b7b8"&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div id="overlayText"&gt;
- &lt;a href="./nmpde5.pdf" aria-label="Download" download&gt;
+ &lt;a href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%ba%94%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e5%a4%9a%e9%87%8d%e7%bd%91%e6%a0%bc%e6%b3%95/nmpde5.pdf" aria-label="Download" download&gt;
  &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"&gt;
  &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" /&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
  &lt;/div&gt;
- &lt;canvas class="pdf-canvas" id="pdf-canvas-952dcffc"&gt;&lt;/canvas&gt;
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-2228b7b8"&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-&lt;div class="pdf-paginator" id="pdf-paginator-952dcffc"&gt;
- &lt;button id="pdf-prev-952dcffc"&gt;Previous&lt;/button&gt;
- &lt;button id="pdf-next-952dcffc"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-2228b7b8"&gt;
+ &lt;button id="pdf-prev-2228b7b8"&gt;Previous&lt;/button&gt;
+ &lt;button id="pdf-next-2228b7b8"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
  &lt;span&gt;
- &lt;span class="pdf-pagenum" id="pdf-pagenum-952dcffc"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-952dcffc"&gt;&lt;/span&gt;
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-2228b7b8"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-2228b7b8"&gt;&lt;/span&gt;
  &lt;/span&gt;
- &lt;a class="pdf-source" id="pdf-source-952dcffc" href="./nmpde5.pdf"&gt;[pdf]&lt;/a&gt;
+ &lt;a class="pdf-source" id="pdf-source-2228b7b8" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%ba%94%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e5%a4%9a%e9%87%8d%e7%bd%91%e6%a0%bc%e6%b3%95/nmpde5.pdf"&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-952dcffc" href="./nmpde5.pdf"&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-2228b7b8" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%ba%94%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e5%a4%9a%e9%87%8d%e7%bd%91%e6%a0%bc%e6%b3%95/nmpde5.pdf"&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type="text/javascript"&gt;
  (function(){
- var url = '.\/nmpde5.pdf';
+ var url = '..\/..\/fem\/pde数值解第五章有限元多重网格法\/nmpde5.pdf';
 
  var hidePaginator = "true" === "true";
  var hideLoader = "" === "true";
@@ -390,7 +390,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-952dcffc" hre
  
 
  var showSource = "" === "true";
- var pageSource = document.getElementById("pdf-source-952dcffc");
+ var pageSource = document.getElementById("pdf-source-2228b7b8");
 
  
  function showSourcef() {
@@ -418,10 +418,10 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-952dcffc" hre
  pageRendering = false,
  pageNumPending = null,
  scale = 3,
- canvas = document.getElementById('pdf-canvas-952dcffc'),
+ canvas = document.getElementById('pdf-canvas-2228b7b8'),
  ctx = canvas.getContext('2d'),
- paginator = document.getElementById("pdf-paginator-952dcffc"),
- loadingWrapper = document.getElementById('pdf-loadingWrapper-952dcffc');
+ paginator = document.getElementById("pdf-paginator-2228b7b8"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-2228b7b8');
 
 
  
@@ -459,7 +459,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-952dcffc" hre
  });
  
  
- document.getElementById('pdf-pagenum-952dcffc').textContent = num;
+ document.getElementById('pdf-pagenum-2228b7b8').textContent = num;
  }
  
  
@@ -503,7 +503,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-952dcffc" hre
  pageNum--;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-prev-952dcffc').addEventListener('click', onPrevPage);
+ document.getElementById('pdf-prev-2228b7b8').addEventListener('click', onPrevPage);
  
  
 
@@ -514,14 +514,14 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-952dcffc" hre
  pageNum++;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-next-952dcffc').addEventListener('click', onNextPage);
+ document.getElementById('pdf-next-2228b7b8').addEventListener('click', onNextPage);
  
  
 
  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  pdfDoc = pdfDoc_;
  var numPages = pdfDoc.numPages;
- document.getElementById('pdf-pagecount-952dcffc').textContent = numPages;
+ document.getElementById('pdf-pagecount-2228b7b8').textContent = numPages;
  
  
  if(pageNum &gt; numPages) {
@@ -620,36 +620,36 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-952dcffc" hre
  @-webkit-keyframes spin {
  to { -webkit-transform: rotate(360deg); }
  }
- &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-336f8116"&gt;
- &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-336f8116"&gt;
- &lt;div class="pdf-loading" id="pdf-loading-336f8116"&gt;&lt;/div&gt;
+ &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-6a8b84ba"&gt;
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-6a8b84ba"&gt;
+ &lt;div class="pdf-loading" id="pdf-loading-6a8b84ba"&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div id="overlayText"&gt;
- &lt;a href="./nmpde4.pdf" aria-label="Download" download&gt;
+ &lt;a href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e5%9b%9b%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95%e7%9a%84%e6%94%b6%e6%95%9b%e6%80%a7%e7%90%86%e8%ae%ba/nmpde4.pdf" aria-label="Download" download&gt;
  &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"&gt;
  &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" /&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
  &lt;/div&gt;
- &lt;canvas class="pdf-canvas" id="pdf-canvas-336f8116"&gt;&lt;/canvas&gt;
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-6a8b84ba"&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-&lt;div class="pdf-paginator" id="pdf-paginator-336f8116"&gt;
- &lt;button id="pdf-prev-336f8116"&gt;Previous&lt;/button&gt;
- &lt;button id="pdf-next-336f8116"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-6a8b84ba"&gt;
+ &lt;button id="pdf-prev-6a8b84ba"&gt;Previous&lt;/button&gt;
+ &lt;button id="pdf-next-6a8b84ba"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
  &lt;span&gt;
- &lt;span class="pdf-pagenum" id="pdf-pagenum-336f8116"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-336f8116"&gt;&lt;/span&gt;
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-6a8b84ba"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-6a8b84ba"&gt;&lt;/span&gt;
  &lt;/span&gt;
- &lt;a class="pdf-source" id="pdf-source-336f8116" href="./nmpde4.pdf"&gt;[pdf]&lt;/a&gt;
+ &lt;a class="pdf-source" id="pdf-source-6a8b84ba" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e5%9b%9b%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95%e7%9a%84%e6%94%b6%e6%95%9b%e6%80%a7%e7%90%86%e8%ae%ba/nmpde4.pdf"&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-336f8116" href="./nmpde4.pdf"&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-6a8b84ba" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e5%9b%9b%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95%e7%9a%84%e6%94%b6%e6%95%9b%e6%80%a7%e7%90%86%e8%ae%ba/nmpde4.pdf"&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type="text/javascript"&gt;
  (function(){
- var url = '.\/nmpde4.pdf';
+ var url = '..\/..\/fem\/pde数值解第四章有限元方法的收敛性理论\/nmpde4.pdf';
 
  var hidePaginator = "true" === "true";
  var hideLoader = "" === "true";
@@ -657,7 +657,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-336f8116" hre
  
 
  var showSource = "" === "true";
- var pageSource = document.getElementById("pdf-source-336f8116");
+ var pageSource = document.getElementById("pdf-source-6a8b84ba");
 
  
  function showSourcef() {
@@ -685,10 +685,10 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-336f8116" hre
  pageRendering = false,
  pageNumPending = null,
  scale = 3,
- canvas = document.getElementById('pdf-canvas-336f8116'),
+ canvas = document.getElementById('pdf-canvas-6a8b84ba'),
  ctx = canvas.getContext('2d'),
- paginator = document.getElementById("pdf-paginator-336f8116"),
- loadingWrapper = document.getElementById('pdf-loadingWrapper-336f8116');
+ paginator = document.getElementById("pdf-paginator-6a8b84ba"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-6a8b84ba');
 
 
  
@@ -726,7 +726,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-336f8116" hre
  });
  
  
- document.getElementById('pdf-pagenum-336f8116').textContent = num;
+ document.getElementById('pdf-pagenum-6a8b84ba').textContent = num;
  }
  
  
@@ -770,7 +770,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-336f8116" hre
  pageNum--;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-prev-336f8116').addEventListener('click', onPrevPage);
+ document.getElementById('pdf-prev-6a8b84ba').addEventListener('click', onPrevPage);
  
  
 
@@ -781,14 +781,14 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-336f8116" hre
  pageNum++;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-next-336f8116').addEventListener('click', onNextPage);
+ document.getElementById('pdf-next-6a8b84ba').addEventListener('click', onNextPage);
  
  
 
  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  pdfDoc = pdfDoc_;
  var numPages = pdfDoc.numPages;
- document.getElementById('pdf-pagecount-336f8116').textContent = numPages;
+ document.getElementById('pdf-pagecount-6a8b84ba').textContent = numPages;
  
  
  if(pageNum &gt; numPages) {
@@ -887,36 +887,36 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-336f8116" hre
  @-webkit-keyframes spin {
  to { -webkit-transform: rotate(360deg); }
  }
- &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-6a1c35ca"&gt;
- &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-6a1c35ca"&gt;
- &lt;div class="pdf-loading" id="pdf-loading-6a1c35ca"&gt;&lt;/div&gt;
+ &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-c5590e5e"&gt;
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-c5590e5e"&gt;
+ &lt;div class="pdf-loading" id="pdf-loading-c5590e5e"&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div id="overlayText"&gt;
- &lt;a href="./nmpde3.pdf" aria-label="Download" download&gt;
+ &lt;a href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%b8%89%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95/nmpde3.pdf" aria-label="Download" download&gt;
  &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"&gt;
  &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" /&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
  &lt;/div&gt;
- &lt;canvas class="pdf-canvas" id="pdf-canvas-6a1c35ca"&gt;&lt;/canvas&gt;
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-c5590e5e"&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-&lt;div class="pdf-paginator" id="pdf-paginator-6a1c35ca"&gt;
- &lt;button id="pdf-prev-6a1c35ca"&gt;Previous&lt;/button&gt;
- &lt;button id="pdf-next-6a1c35ca"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-c5590e5e"&gt;
+ &lt;button id="pdf-prev-c5590e5e"&gt;Previous&lt;/button&gt;
+ &lt;button id="pdf-next-c5590e5e"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
  &lt;span&gt;
- &lt;span class="pdf-pagenum" id="pdf-pagenum-6a1c35ca"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-6a1c35ca"&gt;&lt;/span&gt;
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-c5590e5e"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-c5590e5e"&gt;&lt;/span&gt;
  &lt;/span&gt;
- &lt;a class="pdf-source" id="pdf-source-6a1c35ca" href="./nmpde3.pdf"&gt;[pdf]&lt;/a&gt;
+ &lt;a class="pdf-source" id="pdf-source-c5590e5e" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%b8%89%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95/nmpde3.pdf"&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-6a1c35ca" href="./nmpde3.pdf"&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-c5590e5e" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%b8%89%e7%ab%a0%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95/nmpde3.pdf"&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type="text/javascript"&gt;
  (function(){
- var url = '.\/nmpde3.pdf';
+ var url = '..\/..\/fem\/pde数值解第三章有限元方法\/nmpde3.pdf';
 
  var hidePaginator = "true" === "true";
  var hideLoader = "" === "true";
@@ -924,7 +924,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-6a1c35ca" hre
  
 
  var showSource = "" === "true";
- var pageSource = document.getElementById("pdf-source-6a1c35ca");
+ var pageSource = document.getElementById("pdf-source-c5590e5e");
 
  
  function showSourcef() {
@@ -952,10 +952,10 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-6a1c35ca" hre
  pageRendering = false,
  pageNumPending = null,
  scale = 3,
- canvas = document.getElementById('pdf-canvas-6a1c35ca'),
+ canvas = document.getElementById('pdf-canvas-c5590e5e'),
  ctx = canvas.getContext('2d'),
- paginator = document.getElementById("pdf-paginator-6a1c35ca"),
- loadingWrapper = document.getElementById('pdf-loadingWrapper-6a1c35ca');
+ paginator = document.getElementById("pdf-paginator-c5590e5e"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-c5590e5e');
 
 
  
@@ -993,7 +993,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-6a1c35ca" hre
  });
  
  
- document.getElementById('pdf-pagenum-6a1c35ca').textContent = num;
+ document.getElementById('pdf-pagenum-c5590e5e').textContent = num;
  }
  
  
@@ -1037,7 +1037,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-6a1c35ca" hre
  pageNum--;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-prev-6a1c35ca').addEventListener('click', onPrevPage);
+ document.getElementById('pdf-prev-c5590e5e').addEventListener('click', onPrevPage);
  
  
 
@@ -1048,14 +1048,14 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-6a1c35ca" hre
  pageNum++;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-next-6a1c35ca').addEventListener('click', onNextPage);
+ document.getElementById('pdf-next-c5590e5e').addEventListener('click', onNextPage);
  
  
 
  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  pdfDoc = pdfDoc_;
  var numPages = pdfDoc.numPages;
- document.getElementById('pdf-pagecount-6a1c35ca').textContent = numPages;
+ document.getElementById('pdf-pagecount-c5590e5e').textContent = numPages;
  
  
  if(pageNum &gt; numPages) {
@@ -1154,36 +1154,36 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-6a1c35ca" hre
  @-webkit-keyframes spin {
  to { -webkit-transform: rotate(360deg); }
  }
- &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-73297e15"&gt;
- &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-73297e15"&gt;
- &lt;div class="pdf-loading" id="pdf-loading-73297e15"&gt;&lt;/div&gt;
+ &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-dd032dba"&gt;
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-dd032dba"&gt;
+ &lt;div class="pdf-loading" id="pdf-loading-dd032dba"&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div id="overlayText"&gt;
- &lt;a href="./nmpde2.pdf" aria-label="Download" download&gt;
+ &lt;a href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%ba%8c%e7%ab%a0%e6%a4%ad%e5%9c%86%e9%97%ae%e9%a2%98%e5%8f%98%e5%88%86%e5%8e%9f%e7%90%86/nmpde2.pdf" aria-label="Download" download&gt;
  &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"&gt;
  &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" /&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
  &lt;/div&gt;
- &lt;canvas class="pdf-canvas" id="pdf-canvas-73297e15"&gt;&lt;/canvas&gt;
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-dd032dba"&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-&lt;div class="pdf-paginator" id="pdf-paginator-73297e15"&gt;
- &lt;button id="pdf-prev-73297e15"&gt;Previous&lt;/button&gt;
- &lt;button id="pdf-next-73297e15"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-dd032dba"&gt;
+ &lt;button id="pdf-prev-dd032dba"&gt;Previous&lt;/button&gt;
+ &lt;button id="pdf-next-dd032dba"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
  &lt;span&gt;
- &lt;span class="pdf-pagenum" id="pdf-pagenum-73297e15"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-73297e15"&gt;&lt;/span&gt;
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-dd032dba"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-dd032dba"&gt;&lt;/span&gt;
  &lt;/span&gt;
- &lt;a class="pdf-source" id="pdf-source-73297e15" href="./nmpde2.pdf"&gt;[pdf]&lt;/a&gt;
+ &lt;a class="pdf-source" id="pdf-source-dd032dba" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%ba%8c%e7%ab%a0%e6%a4%ad%e5%9c%86%e9%97%ae%e9%a2%98%e5%8f%98%e5%88%86%e5%8e%9f%e7%90%86/nmpde2.pdf"&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-73297e15" href="./nmpde2.pdf"&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-dd032dba" href="../../fem/pde%e6%95%b0%e5%80%bc%e8%a7%a3%e7%ac%ac%e4%ba%8c%e7%ab%a0%e6%a4%ad%e5%9c%86%e9%97%ae%e9%a2%98%e5%8f%98%e5%88%86%e5%8e%9f%e7%90%86/nmpde2.pdf"&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type="text/javascript"&gt;
  (function(){
- var url = '.\/nmpde2.pdf';
+ var url = '..\/..\/fem\/pde数值解第二章椭圆问题变分原理\/nmpde2.pdf';
 
  var hidePaginator = "true" === "true";
  var hideLoader = "" === "true";
@@ -1191,7 +1191,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-73297e15" hre
  
 
  var showSource = "" === "true";
- var pageSource = document.getElementById("pdf-source-73297e15");
+ var pageSource = document.getElementById("pdf-source-dd032dba");
 
  
  function showSourcef() {
@@ -1219,10 +1219,10 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-73297e15" hre
  pageRendering = false,
  pageNumPending = null,
  scale = 3,
- canvas = document.getElementById('pdf-canvas-73297e15'),
+ canvas = document.getElementById('pdf-canvas-dd032dba'),
  ctx = canvas.getContext('2d'),
- paginator = document.getElementById("pdf-paginator-73297e15"),
- loadingWrapper = document.getElementById('pdf-loadingWrapper-73297e15');
+ paginator = document.getElementById("pdf-paginator-dd032dba"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-dd032dba');
 
 
  
@@ -1260,7 +1260,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-73297e15" hre
  });
  
  
- document.getElementById('pdf-pagenum-73297e15').textContent = num;
+ document.getElementById('pdf-pagenum-dd032dba').textContent = num;
  }
  
  
@@ -1304,7 +1304,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-73297e15" hre
  pageNum--;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-prev-73297e15').addEventListener('click', onPrevPage);
+ document.getElementById('pdf-prev-dd032dba').addEventListener('click', onPrevPage);
  
  
 
@@ -1315,14 +1315,14 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-73297e15" hre
  pageNum++;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-next-73297e15').addEventListener('click', onNextPage);
+ document.getElementById('pdf-next-dd032dba').addEventListener('click', onNextPage);
  
  
 
  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  pdfDoc = pdfDoc_;
  var numPages = pdfDoc.numPages;
- document.getElementById('pdf-pagecount-73297e15').textContent = numPages;
+ document.getElementById('pdf-pagecount-dd032dba').textContent = numPages;
  
  
  if(pageNum &gt; numPages) {

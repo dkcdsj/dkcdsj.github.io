@@ -44,13 +44,7 @@
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;. . .&lt;/td&gt;
- &lt;td&gt;For an exhaustive list, see: 
-&lt;a href="https://web.stanford.edu/dept/cs_edu/resources/cslib_docs/Stack.html" title="Stanford Stack class" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
- Stanford Stack class
- 
- &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
- 
-&lt;/a&gt; 如需完整列表，请参阅：斯坦福栈类&lt;/td&gt;
+ &lt;td&gt;For an exhaustive list, see: &lt;a href="https://dkcdsj.github.io/cpp/106blec5stacks-and-queues/https:/web.stanford.edu/dept/cs_edu/resources/cslib_docs/Stack.html"&gt;Stanford Stack class&lt;/a&gt; 如需完整列表，请参阅：斯坦福栈类&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
@@ -98,13 +92,7 @@
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;. . .&lt;/td&gt;
- &lt;td&gt;For an exhaustive list, see: 
-&lt;a href="https://web.stanford.edu/dept/cs_edu/resources/cslib_docs/Queue.html" title="Stanford Queue class" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
- Stanford Queue class
- 
- &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
- 
-&lt;/a&gt; 如需完整列表，请参阅：斯坦福队列类&lt;/td&gt;
+ &lt;td&gt;For an exhaustive list, see: &lt;a href="https://dkcdsj.github.io/cpp/106blec5stacks-and-queues/https:/web.stanford.edu/dept/cs_edu/resources/cslib_docs/Queue.html"&gt;Stanford Queue class&lt;/a&gt; 如需完整列表，请参阅：斯坦福队列类&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>Lecture 4. Testing, Vectors, and Grids</title><link>https://dkcdsj.github.io/cpp/106blec4testingvectorsgrids/</link><pubDate>Fri, 31 Oct 2025 23:37:17 +0800</pubDate><guid>https://dkcdsj.github.io/cpp/106blec4testingvectorsgrids/</guid><description>&lt;h1 id="设计原则功能分解及其他"&gt;设计原则：功能分解及其他
