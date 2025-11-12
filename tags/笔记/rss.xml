@@ -1,4 +1,271 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>笔记 on cdk's blog</title><link>https://dkcdsj.github.io/tags/%E7%AC%94%E8%AE%B0/</link><description>Recent content in 笔记 on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 24 Oct 2025 23:56:13 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/tags/%E7%AC%94%E8%AE%B0/rss.xml" rel="self" type="application/rss+xml"/><item><title>pde数值解第五章有限元多重网格法</title><link>https://dkcdsj.github.io/fem/pde%E6%95%B0%E5%80%BC%E8%A7%A3%E7%AC%AC%E4%BA%94%E7%AB%A0%E6%9C%89%E9%99%90%E5%85%83%E5%A4%9A%E9%87%8D%E7%BD%91%E6%A0%BC%E6%B3%95/</link><pubDate>Fri, 24 Oct 2025 23:56:13 +0800</pubDate><guid>https://dkcdsj.github.io/fem/pde%E6%95%B0%E5%80%BC%E8%A7%A3%E7%AC%AC%E4%BA%94%E7%AB%A0%E6%9C%89%E9%99%90%E5%85%83%E5%A4%9A%E9%87%8D%E7%BD%91%E6%A0%BC%E6%B3%95/</guid><description>&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>笔记 on cdk's blog</title><link>https://dkcdsj.github.io/tags/%E7%AC%94%E8%AE%B0/</link><description>Recent content in 笔记 on cdk's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 12 Nov 2025 23:44:51 +0800</lastBuildDate><atom:link href="https://dkcdsj.github.io/tags/%E7%AC%94%E8%AE%B0/rss.xml" rel="self" type="application/rss+xml"/><item><title>Pde数值解第六章连续内罚有限元</title><link>https://dkcdsj.github.io/fem/pde%E6%95%B0%E5%80%BC%E8%A7%A3%E7%AC%AC%E5%85%AD%E7%AB%A0%E8%BF%9E%E7%BB%AD%E5%86%85%E7%BD%9A%E6%9C%89%E9%99%90%E5%85%83/</link><pubDate>Wed, 12 Nov 2025 23:44:51 +0800</pubDate><guid>https://dkcdsj.github.io/fem/pde%E6%95%B0%E5%80%BC%E8%A7%A3%E7%AC%AC%E5%85%AD%E7%AB%A0%E8%BF%9E%E7%BB%AD%E5%86%85%E7%BD%9A%E6%9C%89%E9%99%90%E5%85%83/</guid><description>&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'&gt;&lt;/script&gt;
+
+&lt;style&gt;
+ #embed-pdf-container {
+ position: relative;
+ width: 100%;
+ height: auto;
+ min-height: 20vh;
+ 
+ }
+
+ .pdf-canvas {
+ border: 1px solid black;
+ direction: ltr;
+ width: 100%;
+ height: auto;
+ display: none;
+ }
+
+ #the-canvas {
+ border: 1px solid black;
+ direction: ltr;
+ width: 100%;
+ height: auto;
+ display: none;
+ }
+
+
+ .pdf-loadingWrapper {
+ display: none;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 350px;
+ }
+
+ .pdf-loading {
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ border: 3px solid #d2d0d0;;
+ border-radius: 50%;
+ border-top-color: #383838;
+ animation: spin 1s ease-in-out infinite;
+ -webkit-animation: spin 1s ease-in-out infinite;
+ }
+ 
+ .pdf-paginator {
+ text-align:center;
+ }
+
+ 
+
+ 
+
+ #overlayText {
+ word-wrap: break-word;
+ display: none;
+ justify-content: end;
+ }
+
+ #overlayText a {
+ position: relative;
+ top: 10px;
+ right: 4px;
+ color: #000;
+ margin: auto;
+ background-color: #eeeeee;
+ padding: 0.3em 1em;
+ border: solid 2px;
+ border-radius: 12px;
+ border-color: #00000030;
+ text-decoration: none;
+ }
+
+ #overlayText svg {
+ height: clamp(1em, 2vw, 1.4em);
+ width: clamp(1em, 2vw, 1.4em);
+ }
+
+ 
+
+ @keyframes spin {
+ to { -webkit-transform: rotate(360deg); }
+ }
+ @-webkit-keyframes spin {
+ to { -webkit-transform: rotate(360deg); }
+ }
+ &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-37d171bc"&gt;
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-37d171bc"&gt;
+ &lt;div class="pdf-loading" id="pdf-loading-37d171bc"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div id="overlayText"&gt;
+ &lt;a href="./nmpde6.pdf" aria-label="Download" download&gt;
+ &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"&gt;
+ &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" /&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-37d171bc"&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class="pdf-paginator" id="pdf-paginator-37d171bc"&gt;
+ &lt;button id="pdf-prev-37d171bc"&gt;Previous&lt;/button&gt;
+ &lt;button id="pdf-next-37d171bc"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+ &lt;span&gt;
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-37d171bc"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-37d171bc"&gt;&lt;/span&gt;
+ &lt;/span&gt;
+ &lt;a class="pdf-source" id="pdf-source-37d171bc" href="./nmpde6.pdf"&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-37d171bc" href="./nmpde6.pdf"&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type="text/javascript"&gt;
+ (function(){
+ var url = '.\/nmpde6.pdf';
+
+ var hidePaginator = "true" === "true";
+ var hideLoader = "" === "true";
+ var selectedPageNum = parseInt("") || 1;
+ 
+
+ var showSource = "" === "true";
+ var pageSource = document.getElementById("pdf-source-37d171bc");
+
+ 
+ function showSourcef() {
+ if(showSource) {
+ pageSource.style.display = 'inline';
+ } else {
+ pageSource.style.display = 'none';
+ }
+ }
+
+ 
+ showSourcef();
+ 
+ 
+ 
+ var pdfjsLib = window['pdfjs-dist/build/pdf'];
+ 
+ 
+ if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+ pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/dkcdsj.github.io\/" + 'js/pdf-js/build/pdf.worker.js';
+ 
+ 
+ var pdfDoc = null,
+ pageNum = selectedPageNum,
+ pageRendering = false,
+ pageNumPending = null,
+ scale = 3,
+ canvas = document.getElementById('pdf-canvas-37d171bc'),
+ ctx = canvas.getContext('2d'),
+ paginator = document.getElementById("pdf-paginator-37d171bc"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-37d171bc');
+
+
+ 
+ showPaginator();
+ showLoader();
+ 
+ 
+
+ function renderPage(num) {
+ pageRendering = true;
+ 
+ pdfDoc.getPage(num).then(function(page) {
+ var viewport = page.getViewport({scale: scale});
+ canvas.height = viewport.height;
+ canvas.width = viewport.width;
+ 
+ 
+ var renderContext = {
+ canvasContext: ctx,
+ viewport: viewport
+ };
+ var renderTask = page.render(renderContext);
+ 
+ 
+ renderTask.promise.then(function() {
+ pageRendering = false;
+ showContent();
+ 
+ if (pageNumPending !== null) {
+ 
+ renderPage(pageNumPending);
+ pageNumPending = null;
+ }
+ });
+ });
+ 
+ 
+ document.getElementById('pdf-pagenum-37d171bc').textContent = num;
+ }
+ 
+ 
+
+ function showContent() {
+ loadingWrapper.style.display = 'none';
+ canvas.style.display = 'block';
+ }
+ 
+ 
+
+ function showLoader() {
+ if(hideLoader) return
+ loadingWrapper.style.display = 'flex';
+ canvas.style.display = 'none';
+ }
+ 
+ 
+
+ function showPaginator() {
+ if(hidePaginator) return
+ paginator.style.display = 'block';
+ }
+ 
+ 
+
+ function queueRenderPage(num) {
+ if (pageRendering) {
+ pageNumPending = num;
+ } else {
+ renderPage(num);
+ }
+ }
+ 
+ 
+
+ function onPrevPage() {
+ if (pageNum &lt;= 1) {
+ return;
+ }
+ pageNum--;
+ queueRenderPage(pageNum);
+ }
+ document.getElementById('pdf-prev-37d171bc').addEventListener('click', onPrevPage);
+ 
+ 
+
+ function onNextPage() {
+ if (pageNum &gt;= pdfDoc.numPages) {
+ return;
+ }
+ pageNum++;
+ queueRenderPage(pageNum);
+ }
+ document.getElementById('pdf-next-37d171bc').addEventListener('click', onNextPage);
+ 
+ 
+
+ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+ pdfDoc = pdfDoc_;
+ var numPages = pdfDoc.numPages;
+ document.getElementById('pdf-pagecount-37d171bc').textContent = numPages;
+ 
+ 
+ if(pageNum &gt; numPages) {
+ pageNum = numPages
+ }
+ 
+ 
+ renderPage(pageNum);
+ });
+ })();
+&lt;/script&gt;</description></item><item><title>pde数值解第五章有限元多重网格法</title><link>https://dkcdsj.github.io/fem/pde%E6%95%B0%E5%80%BC%E8%A7%A3%E7%AC%AC%E4%BA%94%E7%AB%A0%E6%9C%89%E9%99%90%E5%85%83%E5%A4%9A%E9%87%8D%E7%BD%91%E6%A0%BC%E6%B3%95/</link><pubDate>Fri, 24 Oct 2025 23:56:13 +0800</pubDate><guid>https://dkcdsj.github.io/fem/pde%E6%95%B0%E5%80%BC%E8%A7%A3%E7%AC%AC%E4%BA%94%E7%AB%A0%E6%9C%89%E9%99%90%E5%85%83%E5%A4%9A%E9%87%8D%E7%BD%91%E6%A0%BC%E6%B3%95/</guid><description>&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'&gt;&lt;/script&gt;
 
 &lt;style&gt;
  #embed-pdf-container {
